@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/build/intermediates/pre-dexed/debug/support-v4-19.1.0-fe930dc68beb1e566675ce71b270d4091c6c249b.jar"
+        jar="/Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+    <item
+        dex="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/build/intermediates/pre-dexed/debug/GoogleAdMobAdsSdk-6.2.1-21f37f39a1477f41d4546b83d007e78a7e15c94e.jar"
+        jar="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/libs/GoogleAdMobAdsSdk-6.2.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="40ffb9188343d72dc46d596836a8dd8d464b41a3"/>
+    <item
+        dex="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/build/intermediates/pre-dexed/debug/twitter4j-core-4.0.2-bf06aef17e07e2eb258dce4a27c56405d1b3aa92.jar"
+        jar="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/libs/twitter4j-core-4.0.2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="381cf31e9200c2902782f17248d2af18e2ab4c56"/>
+    <item
+        dex="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/build/intermediates/pre-dexed/debug/classes-98697780cc32239fb27eaef2d8cd457eb7e4bc5f.jar"
+        jar="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="5039889f494962a94a53f24aaa0952dd42952e58"/>
+    <item
+        dex="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/build/intermediates/pre-dexed/debug/aacdecoder-android-0.8-0a696c7a14a00d8b8974a281e781b6d30d01929a.jar"
+        jar="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/libs/aacdecoder-android-0.8.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="43fc2f0e7556b0a743cece06945b9eff5c241499"/>
+    <item
+        dex="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/build/intermediates/pre-dexed/debug/jsoup-1.7.2-d4d142ce5b840862d2839c0760306c71b0cb15d3.jar"
+        jar="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/libs/jsoup-1.7.2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="872693211fd68d1c4e116cf90021603207725e19"/>
+
+</pre-dex-items>

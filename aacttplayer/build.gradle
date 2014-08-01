@@ -1,0 +1,27 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 17
+    buildToolsVersion "19.1.0"
+
+    defaultConfig {
+        applicationId "com.radio.aacttplayer"
+        minSdkVersion 14
+        targetSdkVersion 17
+    }
+
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile project(':facebookSDK')
+    compile files('libs/aacdecoder-android-0.8.jar')
+    compile files('libs/GoogleAdMobAdsSdk-6.2.1.jar')
+    compile files('libs/jsoup-1.7.2.jar')
+    compile files('libs/twitter4j-core-4.0.2.jar')
+}

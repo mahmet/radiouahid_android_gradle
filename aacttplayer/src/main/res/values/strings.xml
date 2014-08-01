@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <string name="app_name">RadioUahid</string>
+        <string name="action_settings">Settings</string>
+        <string name="hello_world">Hello world!</string>
+        <string name="app_version">1.0</string>
+        <string name="button_close">Close</string>
+        <string name="button_play">PLAY</string>
+        <string name="button_stop">STOP</string>
+        <string name="text_exception">Error</string>
+        <string name="text_buffering">Buffering...</string>
+        <string name="text_buffers">Buffers (ms)</string>
+        <string name="text_buffers_audio">Audio</string>
+        <string name="text_buffers_decode">Decode</string>
+        <string name="text_revision">$Revision: 21 $</string>
+        <string name="text_playing">On Air</string>
+        <string name="text_stopped">Gestoppt</string>
+        <string name="text_off">Station ist off</string>
+        <string name="app_id">486366014799115</string>
+
+</resources>
