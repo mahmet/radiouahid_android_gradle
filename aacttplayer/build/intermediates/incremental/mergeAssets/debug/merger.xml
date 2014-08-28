@@ -2,20 +2,20 @@
 <merger version="2" >
 
     <dataSet config="unspecified" >
-        <source path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/assets" />
+        <source path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\assets" />
     </dataSet>
     <dataSet config="main" >
-        <source path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/assets" >
+        <source path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\assets" >
             <file
                 name="ASans.ttf"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/assets/ASans.ttf" />
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\assets\ASans.ttf" />
             <file
                 name="ASansBlack.ttf"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/assets/ASansBlack.ttf" />
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\assets\ASansBlack.ttf" />
         </source>
     </dataSet>
     <dataSet config="debug" >
-        <source path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/debug/assets" />
+        <source path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\debug\assets" />
     </dataSet>
 
 </merger>

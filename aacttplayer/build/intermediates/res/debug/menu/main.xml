@@ -1,7 +1,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
 
   
-        <item android:id="@+id/rating"  android:title="rate this app" android:icon="@drawable/rating" ></item>
-        <item android:id="@+id/share"  android:title="share this app" android:icon="@drawable/share_icon" ></item>
-        <item android:id="@+id/exit"  android:title="exit" android:icon="@drawable/power" ></item>
-</menu><!-- From: file:/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/menu/main.xml -->
+        <item android:id="@+id/rating"  android:title="Bewerte dieses App" android:icon="@drawable/rating" ></item>
+        <item android:id="@+id/exit"  android:title="Beenden" android:icon="@drawable/power" ></item>
+</menu><!-- From: file:/C:/Users/Muhamed/Documents/radiouahid/android/radiouahid_android_gradle/aacttplayer/src/main/res/menu/main.xml -->

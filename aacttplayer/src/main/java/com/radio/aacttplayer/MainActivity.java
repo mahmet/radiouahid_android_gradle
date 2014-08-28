@@ -1,24 +1,12 @@
 package com.radio.aacttplayer;
 
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
 import java.text.DecimalFormat;
 import java.util.Calendar;
-import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import twitter4j.Status;
-import twitter4j.Twitter;
-import twitter4j.TwitterException;
-import twitter4j.TwitterFactory;
-import twitter4j.User;
-import twitter4j.auth.RequestToken;
-import twitter4j.conf.ConfigurationBuilder;
-
 import android.app.Activity;
 import android.app.AlertDialog;
-import android.app.Dialog;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.graphics.Bitmap;
@@ -26,11 +14,6 @@ import android.graphics.Typeface;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager;
-import android.content.pm.ResolveInfo;
-import android.content.pm.PackageManager.NameNotFoundException;
-import android.content.pm.Signature;
 import android.database.ContentObserver;
 import android.view.KeyEvent;
 import android.media.AudioManager;
@@ -44,8 +27,6 @@ import android.provider.Settings.System;
 import android.support.v4.app.NotificationCompat;
 import android.telephony.PhoneStateListener;
 import android.telephony.TelephonyManager;
-import android.text.format.Time;
-import android.util.Base64;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -60,10 +41,9 @@ import com.spoledge.aacdecoder.PlayerCallback;
 
 
 import android.widget.Button;
-import android.widget.DigitalClock;
-import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
+import android.widget.RelativeLayout;
 import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -76,12 +56,11 @@ import com.facebook.Session;
 import com.facebook.UiLifecycleHelper;
 import com.facebook.widget.FacebookDialog;
 import com.facebook.widget.WebDialog;
-import com.facebook.widget.WebDialog.FeedDialogBuilder;
 import com.facebook.widget.WebDialog.OnCompleteListener;
 import com.google.ads.AdRequest;
 import com.google.ads.InterstitialAd;
 
-
+import com.bugsense.trace.BugSenseHandler;
 
 
 
@@ -95,6 +74,11 @@ public class MainActivity extends Activity implements View.OnClickListener, Play
     int seconds;
     int min;
     int hour;
+
+    //hidden toplayout
+    RelativeLayout topFeedbackLayout;
+    ImageView feedbackContentLayout;
+    Button emailToRadiouahidButton;
 	
 	// Notification
 	private String artist = "";
@@ -344,6 +328,14 @@ public class MainActivity extends Activity implements View.OnClickListener, Play
         
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
+
+        BugSenseHandler.initAndStartSession(this, "a3cc0490");
+
+        topFeedbackLayout = (RelativeLayout) findViewById(R.id.top_layout);
+        feedbackContentLayout = (ImageView) findViewById(R.id.feedback_layout);
+        emailToRadiouahidButton = (Button) findViewById(R.id.email_to_radiouahid_button);
+
+        generateFedbackViewListeners();
         
         Typeface font2 = Typeface.createFromAsset(getAssets(),
 				"ASansBlack.ttf");
@@ -463,7 +455,29 @@ public class MainActivity extends Activity implements View.OnClickListener, Play
         setClock();
         updateClockTimer();
     }
-    
+
+    private void generateFedbackViewListeners() {
+        feedbackContentLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                topFeedbackLayout.setVisibility(View.GONE);
+            }
+        });
+
+        emailToRadiouahidButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent emailIntent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts(
+                        "mailto", "info@radiouahid.fm", null
+                ));
+                emailIntent.putExtra(Intent.EXTRA_EMAIL, "info@radiouahid.fm");
+                emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Feedback Radio Uahid Android App");
+
+                startActivity(Intent.createChooser(emailIntent, "Sende uns dein Feedback"));
+            }
+        });
+    }
+
     private void setClock() {
     	seconds = c.get(Calendar.SECOND);
     	min = c.get(Calendar.MINUTE);
@@ -551,21 +565,6 @@ public class MainActivity extends Activity implements View.OnClickListener, Play
 		//interstitial.loadAd(adRequest);
 		
     }
-		
-	public void salir(){
-		if (multiPlayer != null) {
-            multiPlayer.stop();
-            multiPlayer = null;
-        }
-		
-		
-	}
-	
-	public void showWall() {
-		
-	      interstitial.show();
-	   
-	}
     
 
     @Override
@@ -618,7 +617,7 @@ public class MainActivity extends Activity implements View.OnClickListener, Play
     	albumCover = null;
 		ImageView logoimg = (ImageView) findViewById(R.id.logo);
 		logoimg.setImageBitmap(albumCover);
-    	txtMetaTitle.setText("press play to listen");
+    	txtMetaTitle.setText("Tippe Play um zu hören");
         txtMetaGenre.setText("");
     	//interstitial.show();
     	exitNotification();
@@ -664,7 +663,7 @@ public class MainActivity extends Activity implements View.OnClickListener, Play
 			if (FacebookDialog.canPresentShareDialog(getApplicationContext(), FacebookDialog.ShareDialogFeature.SHARE_DIALOG)) {
 				FacebookDialog shareDialog = new FacebookDialog.ShareDialogBuilder(MainActivity.this)
 					.setLink("http://radiouahid.fm")
-					.setDescription("Ich höre gerade " + txtMetaGenre.getText().toString() + ": " + txtMetaTitle.getText().toString() + " auf RadioUahid!")
+					.setDescription("Ich höre gerade " + txtMetaGenre.getText().toString() + ": " + txtMetaTitle.getText().toString() + " auf Radio Uahid!")
 					.setPicture("http://radiouahid.fm/wp-content/uploads/2013/11/RadioUahid-Logo-ohne-Website-neuer-Slogan-300x250.png")
 					.build();
 				uiHelper.trackPendingDialogCall(shareDialog.present());
@@ -681,8 +680,8 @@ public class MainActivity extends Activity implements View.OnClickListener, Play
 	
 	private void publishFeedDialog() {
 		Bundle params = new Bundle();
-		params.putString("name", "RadioUahid");
-		params.putString("description", "Ich höre gerade: " + txtMetaGenre.getText().toString() + ": " + txtMetaTitle.getText().toString() + " auf RadioUahid!");
+		params.putString("name", "Radio Uahid");
+		params.putString("description", "Ich höre gerade: " + txtMetaGenre.getText().toString() + ": " + txtMetaTitle.getText().toString() + " auf Radio Uahid!");
 		params.putString("link", "http://radiouahid.fm");
 		
 		
@@ -732,7 +731,7 @@ public class MainActivity extends Activity implements View.OnClickListener, Play
 
 		Intent shareIntent = new Intent(Intent.ACTION_SEND);
 		shareIntent.setType("text/plain");
-		shareIntent.putExtra(Intent.EXTRA_TEXT, "Ich höre gerade " + txtMetaGenre.getText().toString() + ": " + txtMetaTitle.getText().toString() + " auf RadioUahid!" + " http://radiouahid.fm");
+		shareIntent.putExtra(Intent.EXTRA_TEXT, "Ich höre gerade " + txtMetaGenre.getText().toString() + ": " + txtMetaTitle.getText().toString() + " auf Radio Uahid!" + " http://radiouahid.fm");
 		startActivity(Intent.createChooser(shareIntent, "Empfehle uns weiter"));
 
 	}
@@ -741,9 +740,8 @@ public class MainActivity extends Activity implements View.OnClickListener, Play
 
 	public void btnChat(View v) {
 
-		Intent next = new Intent(getApplicationContext(), chatActivity.class);
-		
-		startActivity(next);
+		topFeedbackLayout.setVisibility(View.VISIBLE);
+
 	}
 	
 public void showNotification() {
@@ -796,21 +794,10 @@ public boolean onOptionsItemSelected(MenuItem item) {
 		    
 		return true;
 		
-		
-	case R.id.share:
-		Intent sharingIntent = new Intent(Intent.ACTION_SEND);
-		sharingIntent.setType("text/plain");
-		
-		sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT,"Listen your favorite music on");
-		sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT,information.Goplay);
-		startActivity(Intent.createChooser(sharingIntent, "Share via"));
-		
-		return true;
-		
 	case R.id.exit:
 		
 
-		String message = "Are you sure want to exit?";
+		String message = "Willst du Radio Uahid wirklich beenden?";
 		isExitMenuClicked = true;
 
 		AlertDialog.Builder ad = new AlertDialog.Builder(this);

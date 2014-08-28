@@ -4,7 +4,7 @@ package com.radio.aacttplayer.data;
 
 public class information {
     //Station name
-	public static String RadioName = "RadioUahid";
+	public static String RadioName = "Radio Uahid";
 	
 	//stream url supports streams MP3,AAC, AAC+ and HE-AAC+
 	public static String StreamURL = "http://174.36.1.92:5659/Live";

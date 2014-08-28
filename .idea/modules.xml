@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/aacttplayer.iml" filepath="$PROJECT_DIR$/aacttplayer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/aacttplayer/aacttplayer-aacttplayer.iml" filepath="$PROJECT_DIR$/aacttplayer/aacttplayer-aacttplayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aacttplayer/aacttplayer.iml" filepath="$PROJECT_DIR$/aacttplayer/aacttplayer.iml" />
       <module fileurl="file://$PROJECT_DIR$/facebookSDK/facebookSDK.iml" filepath="$PROJECT_DIR$/facebookSDK/facebookSDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/radiouahid_android_gradle.iml" filepath="$PROJECT_DIR$/radiouahid_android_gradle.iml" />
     </modules>
   </component>
 </project>

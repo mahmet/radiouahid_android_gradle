@@ -10,4 +10,4 @@
         </clip>
     </item>
     <item android:id="@*android:id/progress" android:drawable="@drawable/baractive" />
-</layer-list><!-- From: file:/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/drawable/vol_bar.xml -->
+</layer-list><!-- From: file:/C:/Users/Muhamed/Documents/radiouahid/android/radiouahid_android_gradle/aacttplayer/src/main/res/drawable/vol_bar.xml -->

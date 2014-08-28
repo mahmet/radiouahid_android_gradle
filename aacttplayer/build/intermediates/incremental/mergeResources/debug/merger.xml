@@ -1,365 +1,368 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merger version="2" >
 
+    <dataSet config="20.0.0" >
+        <source path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\res" />
+    </dataSet>
     <dataSet config="unspecified" >
-        <source path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res" >
+        <source path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res" >
             <file
                 name="com_facebook_button_blue"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable/com_facebook_button_blue.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable\com_facebook_button_blue.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="com_facebook_button_blue_focused"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable/com_facebook_button_blue_focused.9.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable\com_facebook_button_blue_focused.9.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="com_facebook_button_blue_normal"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable/com_facebook_button_blue_normal.9.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable\com_facebook_button_blue_normal.9.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="com_facebook_button_blue_pressed"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable/com_facebook_button_blue_pressed.9.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable\com_facebook_button_blue_pressed.9.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="com_facebook_button_check"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable/com_facebook_button_check.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable\com_facebook_button_check.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="com_facebook_button_check_off"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable/com_facebook_button_check_off.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable\com_facebook_button_check_off.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="com_facebook_button_check_on"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable/com_facebook_button_check_on.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable\com_facebook_button_check_on.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="com_facebook_button_grey_focused"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable/com_facebook_button_grey_focused.9.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable\com_facebook_button_grey_focused.9.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="com_facebook_button_grey_normal"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable/com_facebook_button_grey_normal.9.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable\com_facebook_button_grey_normal.9.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="com_facebook_button_grey_pressed"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable/com_facebook_button_grey_pressed.9.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable\com_facebook_button_grey_pressed.9.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="com_facebook_close"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable/com_facebook_close.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable\com_facebook_close.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="com_facebook_inverse_icon"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable/com_facebook_inverse_icon.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable\com_facebook_inverse_icon.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="com_facebook_list_divider"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable/com_facebook_list_divider.9.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable\com_facebook_list_divider.9.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="com_facebook_list_section_header_background"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable/com_facebook_list_section_header_background.9.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable\com_facebook_list_section_header_background.9.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="com_facebook_loginbutton_silver"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable/com_facebook_loginbutton_silver.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable\com_facebook_loginbutton_silver.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="com_facebook_logo"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable/com_facebook_logo.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable\com_facebook_logo.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="com_facebook_picker_item_background"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable/com_facebook_picker_item_background.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable\com_facebook_picker_item_background.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="com_facebook_picker_list_focused"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable/com_facebook_picker_list_focused.9.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable\com_facebook_picker_list_focused.9.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="com_facebook_picker_list_longpressed"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable/com_facebook_picker_list_longpressed.9.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable\com_facebook_picker_list_longpressed.9.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="com_facebook_picker_list_pressed"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable/com_facebook_picker_list_pressed.9.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable\com_facebook_picker_list_pressed.9.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="com_facebook_picker_list_selector"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable/com_facebook_picker_list_selector.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable\com_facebook_picker_list_selector.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="com_facebook_picker_list_selector_background_transition"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable/com_facebook_picker_list_selector_background_transition.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable\com_facebook_picker_list_selector_background_transition.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="com_facebook_picker_list_selector_disabled"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable/com_facebook_picker_list_selector_disabled.9.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable\com_facebook_picker_list_selector_disabled.9.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="com_facebook_picker_top_button"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable/com_facebook_picker_top_button.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable\com_facebook_picker_top_button.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="com_facebook_place_default_icon"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable/com_facebook_place_default_icon.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable\com_facebook_place_default_icon.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="com_facebook_profile_default_icon"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable/com_facebook_profile_default_icon.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable\com_facebook_profile_default_icon.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="com_facebook_profile_picture_blank_portrait"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable/com_facebook_profile_picture_blank_portrait.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable\com_facebook_profile_picture_blank_portrait.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="com_facebook_profile_picture_blank_square"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable/com_facebook_profile_picture_blank_square.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable\com_facebook_profile_picture_blank_square.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="com_facebook_top_background"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable/com_facebook_top_background.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable\com_facebook_top_background.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="com_facebook_top_button"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable/com_facebook_top_button.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable\com_facebook_top_button.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="com_facebook_usersettingsfragment_background_gradient"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable/com_facebook_usersettingsfragment_background_gradient.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable\com_facebook_usersettingsfragment_background_gradient.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="com_facebook_button_blue_focused"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable-hdpi-v4/com_facebook_button_blue_focused.9.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable-hdpi-v4\com_facebook_button_blue_focused.9.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="com_facebook_button_blue_normal"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable-hdpi-v4/com_facebook_button_blue_normal.9.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable-hdpi-v4\com_facebook_button_blue_normal.9.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="com_facebook_button_blue_pressed"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable-hdpi-v4/com_facebook_button_blue_pressed.9.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable-hdpi-v4\com_facebook_button_blue_pressed.9.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="com_facebook_button_grey_focused"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable-hdpi-v4/com_facebook_button_grey_focused.9.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable-hdpi-v4\com_facebook_button_grey_focused.9.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="com_facebook_button_grey_normal"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable-hdpi-v4/com_facebook_button_grey_normal.9.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable-hdpi-v4\com_facebook_button_grey_normal.9.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="com_facebook_button_grey_pressed"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable-hdpi-v4/com_facebook_button_grey_pressed.9.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable-hdpi-v4\com_facebook_button_grey_pressed.9.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="com_facebook_close"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable-hdpi-v4/com_facebook_close.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable-hdpi-v4\com_facebook_close.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="com_facebook_inverse_icon"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable-hdpi-v4/com_facebook_inverse_icon.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable-hdpi-v4\com_facebook_inverse_icon.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="com_facebook_logo"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable-hdpi-v4/com_facebook_logo.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable-hdpi-v4\com_facebook_logo.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="com_facebook_picker_magnifier"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable-hdpi-v4/com_facebook_picker_magnifier.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable-hdpi-v4\com_facebook_picker_magnifier.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="com_facebook_close"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable-ldpi-v4/com_facebook_close.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable-ldpi-v4\com_facebook_close.png"
                 qualifiers="ldpi-v4"
                 type="drawable" />
             <file
                 name="com_facebook_button_blue_focused"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable-mdpi-v4/com_facebook_button_blue_focused.9.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable-mdpi-v4\com_facebook_button_blue_focused.9.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="com_facebook_button_blue_normal"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable-mdpi-v4/com_facebook_button_blue_normal.9.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable-mdpi-v4\com_facebook_button_blue_normal.9.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="com_facebook_button_blue_pressed"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable-mdpi-v4/com_facebook_button_blue_pressed.9.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable-mdpi-v4\com_facebook_button_blue_pressed.9.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="com_facebook_inverse_icon"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable-mdpi-v4/com_facebook_inverse_icon.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable-mdpi-v4\com_facebook_inverse_icon.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="com_facebook_picker_magnifier"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable-mdpi-v4/com_facebook_picker_magnifier.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable-mdpi-v4\com_facebook_picker_magnifier.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="com_facebook_button_blue_focused"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable-xhdpi-v4/com_facebook_button_blue_focused.9.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable-xhdpi-v4\com_facebook_button_blue_focused.9.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="com_facebook_button_blue_normal"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable-xhdpi-v4/com_facebook_button_blue_normal.9.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable-xhdpi-v4\com_facebook_button_blue_normal.9.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="com_facebook_button_blue_pressed"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable-xhdpi-v4/com_facebook_button_blue_pressed.9.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable-xhdpi-v4\com_facebook_button_blue_pressed.9.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="com_facebook_button_grey_focused"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable-xhdpi-v4/com_facebook_button_grey_focused.9.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable-xhdpi-v4\com_facebook_button_grey_focused.9.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="com_facebook_button_grey_normal"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable-xhdpi-v4/com_facebook_button_grey_normal.9.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable-xhdpi-v4\com_facebook_button_grey_normal.9.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="com_facebook_button_grey_pressed"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable-xhdpi-v4/com_facebook_button_grey_pressed.9.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable-xhdpi-v4\com_facebook_button_grey_pressed.9.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="com_facebook_close"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable-xhdpi-v4/com_facebook_close.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable-xhdpi-v4\com_facebook_close.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="com_facebook_inverse_icon"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable-xhdpi-v4/com_facebook_inverse_icon.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable-xhdpi-v4\com_facebook_inverse_icon.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="com_facebook_logo"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable-xhdpi-v4/com_facebook_logo.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable-xhdpi-v4\com_facebook_logo.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="com_facebook_picker_magnifier"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/drawable-xhdpi-v4/com_facebook_picker_magnifier.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\drawable-xhdpi-v4\com_facebook_picker_magnifier.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="com_facebook_friendpickerfragment"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/layout/com_facebook_friendpickerfragment.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\layout\com_facebook_friendpickerfragment.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="com_facebook_login_activity_layout"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/layout/com_facebook_login_activity_layout.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\layout\com_facebook_login_activity_layout.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="com_facebook_picker_activity_circle_row"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/layout/com_facebook_picker_activity_circle_row.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\layout\com_facebook_picker_activity_circle_row.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="com_facebook_picker_checkbox"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/layout/com_facebook_picker_checkbox.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\layout\com_facebook_picker_checkbox.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="com_facebook_picker_image"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/layout/com_facebook_picker_image.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\layout\com_facebook_picker_image.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="com_facebook_picker_list_row"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/layout/com_facebook_picker_list_row.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\layout\com_facebook_picker_list_row.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="com_facebook_picker_list_section_header"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/layout/com_facebook_picker_list_section_header.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\layout\com_facebook_picker_list_section_header.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="com_facebook_picker_search_box"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/layout/com_facebook_picker_search_box.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\layout\com_facebook_picker_search_box.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="com_facebook_picker_title_bar"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/layout/com_facebook_picker_title_bar.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\layout\com_facebook_picker_title_bar.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="com_facebook_picker_title_bar_stub"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/layout/com_facebook_picker_title_bar_stub.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\layout\com_facebook_picker_title_bar_stub.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="com_facebook_placepickerfragment"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/layout/com_facebook_placepickerfragment.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\layout\com_facebook_placepickerfragment.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="com_facebook_placepickerfragment_list_row"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/layout/com_facebook_placepickerfragment_list_row.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\layout\com_facebook_placepickerfragment_list_row.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="com_facebook_search_bar_layout"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/layout/com_facebook_search_bar_layout.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\layout\com_facebook_search_bar_layout.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="com_facebook_usersettingsfragment"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/layout/com_facebook_usersettingsfragment.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\layout\com_facebook_usersettingsfragment.xml"
                 qualifiers=""
                 type="layout" />
             <file
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/values/values.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\values\values.xml"
                 qualifiers="" >
                 <string name="com_facebook_loginview_logged_in_using_facebook" >Logged in using Facebook
                 </string>
@@ -618,7 +621,7 @@ center
                 </dimen>
             </file>
             <file
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/values-es/values.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\values-es\values.xml"
                 qualifiers="es" >
                 <string name="com_facebook_logo_content_description" >Logo de Facebook
                 </string>
@@ -672,13 +675,13 @@ center
                 </string>
             </file>
             <file
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/values-hdpi-v4/values.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\values-hdpi-v4\values.xml"
                 qualifiers="hdpi-v4" >
                 <dimen name="com_facebook_picker_divider_width" >1px
                 </dimen>
             </file>
             <file
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/values-he/values.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\values-he\values.xml"
                 qualifiers="he" >
                 <string name="com_facebook_picker_done_button_text" >בצע
                 </string>
@@ -732,7 +735,7 @@ center
                 </string>
             </file>
             <file
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/values-iw/values.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\values-iw\values.xml"
                 qualifiers="iw" >
                 <string name="com_facebook_placepicker_subtitle_format" >%1$s • %2$,d היו פה
                 </string>
@@ -786,19 +789,19 @@ center
                 </string>
             </file>
             <file
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/values-ldpi-v4/values.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\values-ldpi-v4\values.xml"
                 qualifiers="ldpi-v4" >
                 <dimen name="com_facebook_picker_divider_width" >1px
                 </dimen>
             </file>
             <file
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/values-mdpi-v4/values.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\values-mdpi-v4\values.xml"
                 qualifiers="mdpi-v4" >
                 <dimen name="com_facebook_picker_divider_width" >1px
                 </dimen>
             </file>
             <file
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/build/intermediates/exploded-aar/aacttplayer/facebookSDK/unspecified/res/values-xhdpi-v4/values.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\build\intermediates\exploded-aar\radiouahid_android_gradle\facebookSDK\unspecified\res\values-xhdpi-v4\values.xml"
                 qualifiers="xhdpi-v4" >
                 <dimen name="com_facebook_picker_divider_width" >2px
                 </dimen>
@@ -806,209 +809,219 @@ center
         </source>
     </dataSet>
     <dataSet config="main" >
-        <source path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res" >
+        <source path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res" >
             <file
                 name="from_botton"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/anim/from_botton.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\anim\from_botton.xml"
                 qualifiers=""
                 type="anim" />
             <file
                 name="btn_back"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/drawable/btn_back.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\drawable\btn_back.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="btn_chat"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/drawable/btn_chat.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\drawable\btn_chat.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="btn_facebook"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/drawable/btn_facebook.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\drawable\btn_facebook.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="btn_play"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/drawable/btn_play.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\drawable\btn_play.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="btn_stop"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/drawable/btn_stop.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\drawable\btn_stop.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="btn_twitter"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/drawable/btn_twitter.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\drawable\btn_twitter.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="progress1"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/drawable/progress1.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\drawable\progress1.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="vol_bar"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/drawable/vol_bar.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\drawable\vol_bar.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/drawable-hdpi/ic_launcher.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\drawable-hdpi\ic_launcher.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/drawable-ldpi/ic_launcher.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\drawable-ldpi\ic_launcher.png"
                 qualifiers="ldpi-v4"
                 type="drawable" />
             <file
                 name="backbtn_activo"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/drawable-mdpi/backbtn_activo.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\drawable-mdpi\backbtn_activo.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="backbtn_inactivo"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/drawable-mdpi/backbtn_inactivo.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\drawable-mdpi\backbtn_inactivo.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="background"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/drawable-mdpi/background.png"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="bar_not"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/drawable-mdpi/bar_not.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\drawable-mdpi\background.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="baractive"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/drawable-mdpi/baractive.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\drawable-mdpi\baractive.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="bar_not"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\drawable-mdpi\bar_not.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="chatbtn_activo"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/drawable-mdpi/chatbtn_activo.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\drawable-mdpi\chatbtn_activo.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="chatbtn_inactivo"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/drawable-mdpi/chatbtn_inactivo.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\drawable-mdpi\chatbtn_inactivo.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="fbbtn_activo"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/drawable-mdpi/fbbtn_activo.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\drawable-mdpi\fbbtn_activo.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="fbbtn_inactivo"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/drawable-mdpi/fbbtn_inactivo.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\drawable-mdpi\fbbtn_inactivo.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="feedback_arrow"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\drawable-mdpi\feedback_arrow.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="feedback_layout"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\drawable-mdpi\feedback_layout.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/drawable-mdpi/ic_launcher.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\drawable-mdpi\ic_launcher.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="logo"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/drawable-mdpi/logo.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\drawable-mdpi\logo.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="myprogress"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/drawable-mdpi/myprogress.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\drawable-mdpi\myprogress.xml"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="play_activo"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/drawable-mdpi/play_activo.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\drawable-mdpi\play_activo.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="play_inactivo"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/drawable-mdpi/play_inactivo.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\drawable-mdpi\play_inactivo.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="power"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/drawable-mdpi/power.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\drawable-mdpi\power.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="rating"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/drawable-mdpi/rating.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\drawable-mdpi\rating.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="seek_handler"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/drawable-mdpi/seek_handler.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\drawable-mdpi\seek_handler.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="share_icon"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/drawable-mdpi/share_icon.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\drawable-mdpi\share_icon.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="stop_activo"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/drawable-mdpi/stop_activo.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\drawable-mdpi\stop_activo.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="stop_inactivo"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/drawable-mdpi/stop_inactivo.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\drawable-mdpi\stop_inactivo.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="twbtn_activo"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/drawable-mdpi/twbtn_activo.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\drawable-mdpi\twbtn_activo.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="twbtn_inactivo"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/drawable-mdpi/twbtn_inactivo.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\drawable-mdpi\twbtn_inactivo.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/drawable-xhdpi/ic_launcher.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\drawable-xhdpi\ic_launcher.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\drawable-xxhdpi\ic_launcher.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
                 name="activity_main"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/layout/activity_main.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\layout\activity_main.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="splash"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/layout/splash.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\layout\splash.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="twitter_share_dialog"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/layout/twitter_share_dialog.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\layout\twitter_share_dialog.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="webview"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/layout/webview.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\layout\webview.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="main"
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/menu/main.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\menu\main.xml"
                 qualifiers=""
                 type="menu" />
             <file
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/values/color.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\values\color.xml"
                 qualifiers="" >
                 <color name="gift_green" >#c3f6a5
                 </color>
@@ -1016,7 +1029,7 @@ center
                 </color>
             </file>
             <file
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/values/dimens.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\values\dimens.xml"
                 qualifiers="" >
                 <dimen name="activity_vertical_margin" >16dp
                 </dimen>
@@ -1024,24 +1037,24 @@ center
                 </dimen>
             </file>
             <file
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/values/ids.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\values\ids.xml"
                 qualifiers="" >
                 <item
                     name="volumebar"
                     type="id"/>
             </file>
             <file
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/values/strings.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\values\strings.xml"
                 qualifiers="" >
                 <string name="hello_world" >Hello world!
                 </string>
-                <string name="text_buffers" >Buffers (ms)
+                <string name="text_buffers" >Buffert (ms)
                 </string>
-                <string name="text_off" >Station ist off
+                <string name="text_off" >Die Station ist off
                 </string>
                 <string name="text_exception" >Error
                 </string>
-                <string name="action_settings" >Settings
+                <string name="action_settings" >Einstellungen
                 </string>
                 <string name="button_stop" >STOP
                 </string>
@@ -1049,7 +1062,7 @@ center
                 </string>
                 <string name="text_playing" >On Air
                 </string>
-                <string name="app_name" >RadioUahid
+                <string name="app_name" >Radio Uahid
                 </string>
                 <string name="app_version" >1.0
                 </string>
@@ -1063,13 +1076,13 @@ center
                 </string>
                 <string name="button_play" >PLAY
                 </string>
-                <string name="text_buffering" >Buffering...
+                <string name="text_buffering" >Lade Buffer...
                 </string>
-                <string name="button_close" >Close
+                <string name="button_close" >Schliessen
                 </string>
             </file>
             <file
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/values/styles.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\values\styles.xml"
                 qualifiers="" >
 
                 <style
@@ -1108,13 +1121,13 @@ false
                 </style>
             </file>
             <file
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/values-sw720dp-land/dimens.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\values-sw720dp-land\dimens.xml"
                 qualifiers="sw720dp-land-v13" >
                 <dimen name="activity_horizontal_margin" >128dp
                 </dimen>
             </file>
             <file
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/values-v11/styles.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\values-v11\styles.xml"
                 qualifiers="v11" >
 
                 <style
@@ -1125,7 +1138,7 @@ false
                 </style>
             </file>
             <file
-                path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/main/res/values-v14/styles.xml"
+                path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\main\res\values-v14\styles.xml"
                 qualifiers="v14" >
 
                 <style
@@ -1136,11 +1149,11 @@ false
                 </style>
             </file>
         </source>
-        <source path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/build/generated/res/rs/debug" />
-        <source path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/build/generated/res/generated/debug" />
+        <source path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\build\generated\res\rs\debug" />
+        <source path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\build\generated\res\generated\debug" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="/Users/Ahmed/AndroidStudioProjects/aacttplayer/aacttplayer/src/debug/res" />
+        <source path="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\src\debug\res" />
     </dataSet>
 
 </merger>
