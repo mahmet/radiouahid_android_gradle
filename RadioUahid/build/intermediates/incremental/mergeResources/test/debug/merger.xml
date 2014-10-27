@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/Users/mahmet/Documents/development/impac/radiouahid_android_gradle/RadioUahid/src/androidTest/res" />
+        <source path="/Users/mahmet/Documents/development/impac/radiouahid_android_gradle/RadioUahid/build/generated/res/rs/test/debug" />
+        <source path="/Users/mahmet/Documents/development/impac/radiouahid_android_gradle/RadioUahid/build/generated/res/generated/test/debug" />
+    </dataSet>
+
+</merger>

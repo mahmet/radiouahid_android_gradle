@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="jsoup-1.7.2">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/aacttplayer/libs/jsoup-1.7.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RadioUahid/libs/jsoup-1.7.2.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

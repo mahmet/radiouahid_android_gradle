@@ -6,6 +6,10 @@
         <option name="name" value="app: com.radio.aacttplayer" />
         <option name="packageNamePattern" value="com.radio.aacttplayer" />
       </filter>
+      <filter>
+        <option name="name" value="app: com.radio.radiouahid" />
+        <option name="packageNamePattern" value="com.radio.radiouahid" />
+      </filter>
     </filters>
   </component>
   <component name="AndroidLayoutPreviewToolWindow">
@@ -31,7 +35,7 @@
       </config>
     </shared>
     <layouts>
-      <layout url="file://$PROJECT_DIR$/aacttplayer/src/main/res/layout/activity_main.xml">
+      <layout url="file://$PROJECT_DIR$/RadioUahid/src/main/res/layout/activity_main.xml">
         <config>
           <theme>@style/AppTheme</theme>
         </config>
@@ -39,32 +43,426 @@
     </layouts>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.radio.aacttplayer" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.radio.radiouahid" />
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="2587bd58-75ef-4041-9dfa-4fb34c6f3f7f" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\.idea\libraries\support_v4_19_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\facebookSDK\facebookSDK.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable-mdpi/Thumbs.db" afterPath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable-mdpi/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aacttplayer/build/generated/source/buildConfig/debug/com/radio/aacttplayer/BuildConfig.java" afterPath="$PROJECT_DIR$/aacttplayer/build/generated/source/buildConfig/debug/com/radio/aacttplayer/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facebookSDK/build/generated/source/buildConfig/debug/com/facebook/android/BuildConfig.java" afterPath="$PROJECT_DIR$/facebookSDK/build/generated/source/buildConfig/debug/com/facebook/android/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facebookSDK/build/generated/source/buildConfig/release/com/facebook/android/BuildConfig.java" afterPath="$PROJECT_DIR$/facebookSDK/build/generated/source/buildConfig/release/com/facebook/android/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/com/radio/aacttplayer/MainActivity.java" afterPath="$PROJECT_DIR$/aacttplayer/src/main/java/com/radio/aacttplayer/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aacttplayer/build/generated/source/r/debug/com/facebook/android/R.java" afterPath="$PROJECT_DIR$/aacttplayer/build/generated/source/r/debug/com/facebook/android/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aacttplayer/build/generated/source/r/debug/com/radio/aacttplayer/R.java" afterPath="$PROJECT_DIR$/aacttplayer/build/generated/source/r/debug/com/radio/aacttplayer/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/aacttplayer/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable/btn_play.xml" afterPath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable/btn_play.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aacttplayer/build.gradle" afterPath="$PROJECT_DIR$/aacttplayer/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facebookSDK/build.gradle" afterPath="$PROJECT_DIR$/facebookSDK/build.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable-mdpi/feedback_layout.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/facebook/android/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/facebook/android/R$color.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/facebook/android/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/facebook/android/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/facebook/android/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/facebook/android/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/facebook/android/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/facebook/android/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/facebook/android/R$styleable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/facebook/android/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/FbActivity$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/FbActivity$MyWebViewClient.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/FbActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/History.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/LastFMCover.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/MainActivity$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/MainActivity$10.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/MainActivity$11.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/MainActivity$12.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/MainActivity$13.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/MainActivity$14.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/MainActivity$15.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/MainActivity$16.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/MainActivity$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/MainActivity$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/MainActivity$4$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/MainActivity$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/MainActivity$5$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/MainActivity$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/MainActivity$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/MainActivity$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/MainActivity$8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/MainActivity$9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/MainActivity$LastFMCoverAsyncTask.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/MainActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/R$anim.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/R$color.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/R$menu.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/R$styleable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/SplashActivity$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/SplashActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/TwActivity$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/TwActivity$MyWebViewClient.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/TwActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/chatActivity$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/chatActivity$MyWebViewClient.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/chatActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/com/radio/aacttplayer/data/information.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/Album.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/Artist.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/Authenticator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/CallException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/Caller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/Chart.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/Event$AttendanceStatus.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/Event$TicketSupplier.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/Event.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/Geo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/Group.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/Image.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/ImageHolder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/ImageSize.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/Library.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/MusicEntry.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/PaginatedResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/Period.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/Playlist.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/Radio$RadioStation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/Radio.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/Result$Status.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/Result.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/Session.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/Tag.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/Tasteometer$ComparisonResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/Tasteometer$InputType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/Tasteometer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/Track.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/Venue.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/cache/AndroidExpirationPolicy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/cache/Cache.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/cache/DatabaseCache.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/cache/DefaultExpirationPolicy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/cache/ExpirationPolicy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/cache/FileSystemCache.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/cache/MemoryCache.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/cache/ScrobbleCache.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/scrobble/Rating.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/scrobble/ResponseStatus.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/scrobble/Scrobbler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/scrobble/Source.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/lastfm/scrobble/SubmissionData.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/util/StringUtilities.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/classes/debug/net/roarsoftware/xml/DomElement.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/dex/debug/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/incremental/mergeAssets/debug/merger.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/pre-dexed/debug/GoogleAdMobAdsSdk-6.2.1-371b7d0ef60fa5886a6e4be31d11ea92e901d23e.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/pre-dexed/debug/aacdecoder-android-0.8-f97bc214707a09c6463ee9b3ec356ea8a5d0e6a9.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/pre-dexed/debug/classes-50253ef1ac2646af276af3ca3414084ec25fd8c8.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/pre-dexed/debug/classes-7b5195a1949659f9a2c3e9afa1d917300ad0f001.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-31337709db43e312c7443e5025ec5e8ce42b6abd.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/pre-dexed/debug/jsoup-1.7.2-3f13e9c4d0b6252331426f0023d98d6407ac61b4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-d97369168ef6c1008f1b7428043764dd6d239912.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/pre-dexed/debug/twitter4j-core-4.0.2-44d6e5e5faf1b11a9e7aae6ff8bdb836a4f006b7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-mdpi-v4/feedback_layout.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable/vol_bar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/values-hdpi-v4/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/values-ldpi-v4/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/values-mdpi-v4/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/values-sw720dp-land-v13/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/values-xhdpi-v4/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/outputs/apk/aacttplayer-debug-unaligned.apk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/build/outputs/apk/aacttplayer-debug.apk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable-mdpi/feedback_layout.png" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/aacttplayer-aacttplayer.iml" afterPath="$PROJECT_DIR$/RadioUahid/aacttplayer-aacttplayer.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/aacttplayer.iml" afterPath="$PROJECT_DIR$/RadioUahid/RadioUahid.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build.gradle" afterPath="$PROJECT_DIR$/RadioUahid/build.gradle" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/generated/source/buildConfig/debug/com/radio/aacttplayer/BuildConfig.java" afterPath="$PROJECT_DIR$/RadioUahid/build/generated/source/buildConfig/debug/com/radio/radiouahid/BuildConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/generated/source/r/debug/com/facebook/android/R.java" afterPath="$PROJECT_DIR$/RadioUahid/build/generated/source/r/debug/com/facebook/android/R.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/generated/source/r/debug/com/radio/aacttplayer/R.java" afterPath="$PROJECT_DIR$/RadioUahid/build/generated/source/r/debug/com/radio/radiouahid/R.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/assets/debug/ASans.ttf" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/assets/debug/ASans.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/assets/debug/ASansBlack.ttf" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/assets/debug/ASansBlack.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/incremental/aidl/debug/dependency.store" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/incremental/aidl/debug/dependency.store" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/incremental/mergeResources/debug/merger.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/incremental/mergeResources/debug/merger.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/libs/aacttplayer-debug.ap_" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/libs/aacttplayer-debug.ap_" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/manifests/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/manifests/debug/AndroidManifest.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/anim/from_botton.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/anim/from_botton.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-hdpi-v4/com_facebook_button_blue_focused.9.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-hdpi-v4/com_facebook_button_blue_focused.9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-hdpi-v4/com_facebook_button_blue_normal.9.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-hdpi-v4/com_facebook_button_blue_normal.9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-hdpi-v4/com_facebook_button_blue_pressed.9.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-hdpi-v4/com_facebook_button_blue_pressed.9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-hdpi-v4/com_facebook_button_grey_focused.9.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-hdpi-v4/com_facebook_button_grey_focused.9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-hdpi-v4/com_facebook_button_grey_normal.9.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-hdpi-v4/com_facebook_button_grey_normal.9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-hdpi-v4/com_facebook_button_grey_pressed.9.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-hdpi-v4/com_facebook_button_grey_pressed.9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-hdpi-v4/com_facebook_close.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-hdpi-v4/com_facebook_close.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-hdpi-v4/com_facebook_inverse_icon.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-hdpi-v4/com_facebook_inverse_icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-hdpi-v4/com_facebook_logo.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-hdpi-v4/com_facebook_logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-hdpi-v4/com_facebook_picker_magnifier.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-hdpi-v4/com_facebook_picker_magnifier.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-hdpi-v4/ic_launcher.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-hdpi-v4/ic_launcher.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-ldpi-v4/com_facebook_close.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-ldpi-v4/com_facebook_close.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-ldpi-v4/ic_launcher.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-ldpi-v4/ic_launcher.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-mdpi-v4/backbtn_activo.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-mdpi-v4/backbtn_activo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-mdpi-v4/backbtn_inactivo.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-mdpi-v4/backbtn_inactivo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-mdpi-v4/background.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-mdpi-v4/background.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-mdpi-v4/bar_not.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-mdpi-v4/bar_not.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-mdpi-v4/baractive.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-mdpi-v4/baractive.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-mdpi-v4/chatbtn_activo.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-mdpi-v4/chatbtn_activo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-mdpi-v4/chatbtn_inactivo.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-mdpi-v4/chatbtn_inactivo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-mdpi-v4/com_facebook_button_blue_focused.9.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-mdpi-v4/com_facebook_button_blue_focused.9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-mdpi-v4/com_facebook_button_blue_normal.9.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-mdpi-v4/com_facebook_button_blue_normal.9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-mdpi-v4/com_facebook_button_blue_pressed.9.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-mdpi-v4/com_facebook_button_blue_pressed.9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-mdpi-v4/com_facebook_inverse_icon.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-mdpi-v4/com_facebook_inverse_icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-mdpi-v4/com_facebook_picker_magnifier.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-mdpi-v4/com_facebook_picker_magnifier.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-mdpi-v4/fbbtn_activo.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-mdpi-v4/fbbtn_activo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-mdpi-v4/fbbtn_inactivo.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-mdpi-v4/fbbtn_inactivo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-mdpi-v4/feedback_arrow.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-mdpi-v4/feedback_arrow.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-mdpi-v4/ic_launcher.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-mdpi-v4/ic_launcher.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-mdpi-v4/logo.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-mdpi-v4/logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-mdpi-v4/myprogress.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-mdpi-v4/myprogress.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-mdpi-v4/play_activo.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-mdpi-v4/play_activo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-mdpi-v4/play_inactivo.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-mdpi-v4/play_inactivo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-mdpi-v4/power.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-mdpi-v4/power.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-mdpi-v4/rating.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-mdpi-v4/rating.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-mdpi-v4/seek_handler.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-mdpi-v4/seek_handler.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-mdpi-v4/share_icon.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-mdpi-v4/share_icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-mdpi-v4/stop_activo.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-mdpi-v4/stop_activo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-mdpi-v4/stop_inactivo.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-mdpi-v4/stop_inactivo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-mdpi-v4/twbtn_activo.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-mdpi-v4/twbtn_activo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-mdpi-v4/twbtn_inactivo.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-mdpi-v4/twbtn_inactivo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-xhdpi-v4/com_facebook_button_blue_focused.9.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-xhdpi-v4/com_facebook_button_blue_focused.9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-xhdpi-v4/com_facebook_button_blue_normal.9.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-xhdpi-v4/com_facebook_button_blue_normal.9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-xhdpi-v4/com_facebook_button_blue_pressed.9.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-xhdpi-v4/com_facebook_button_blue_pressed.9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-xhdpi-v4/com_facebook_button_grey_focused.9.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-xhdpi-v4/com_facebook_button_grey_focused.9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-xhdpi-v4/com_facebook_button_grey_normal.9.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-xhdpi-v4/com_facebook_button_grey_normal.9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-xhdpi-v4/com_facebook_button_grey_pressed.9.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-xhdpi-v4/com_facebook_button_grey_pressed.9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-xhdpi-v4/com_facebook_close.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-xhdpi-v4/com_facebook_close.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-xhdpi-v4/com_facebook_inverse_icon.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-xhdpi-v4/com_facebook_inverse_icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-xhdpi-v4/com_facebook_logo.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-xhdpi-v4/com_facebook_logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-xhdpi-v4/com_facebook_picker_magnifier.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-xhdpi-v4/com_facebook_picker_magnifier.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-xhdpi-v4/ic_launcher.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-xhdpi-v4/ic_launcher.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable-xxhdpi-v4/ic_launcher.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable-xxhdpi-v4/ic_launcher.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable/btn_back.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable/btn_back.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable/btn_chat.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable/btn_chat.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable/btn_facebook.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable/btn_facebook.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable/btn_play.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable/btn_play.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable/btn_stop.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable/btn_stop.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable/btn_twitter.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable/btn_twitter.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable/com_facebook_button_blue.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable/com_facebook_button_blue.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable/com_facebook_button_blue_focused.9.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable/com_facebook_button_blue_focused.9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable/com_facebook_button_blue_normal.9.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable/com_facebook_button_blue_normal.9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable/com_facebook_button_blue_pressed.9.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable/com_facebook_button_blue_pressed.9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable/com_facebook_button_check.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable/com_facebook_button_check.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable/com_facebook_button_check_off.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable/com_facebook_button_check_off.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable/com_facebook_button_check_on.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable/com_facebook_button_check_on.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable/com_facebook_button_grey_focused.9.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable/com_facebook_button_grey_focused.9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable/com_facebook_button_grey_normal.9.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable/com_facebook_button_grey_normal.9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable/com_facebook_button_grey_pressed.9.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable/com_facebook_button_grey_pressed.9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable/com_facebook_close.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable/com_facebook_close.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable/com_facebook_inverse_icon.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable/com_facebook_inverse_icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable/com_facebook_list_divider.9.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable/com_facebook_list_divider.9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable/com_facebook_list_section_header_background.9.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable/com_facebook_list_section_header_background.9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable/com_facebook_loginbutton_silver.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable/com_facebook_loginbutton_silver.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable/com_facebook_logo.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable/com_facebook_logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable/com_facebook_picker_item_background.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable/com_facebook_picker_item_background.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable/com_facebook_picker_list_focused.9.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable/com_facebook_picker_list_focused.9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable/com_facebook_picker_list_longpressed.9.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable/com_facebook_picker_list_longpressed.9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable/com_facebook_picker_list_pressed.9.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable/com_facebook_picker_list_pressed.9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable/com_facebook_picker_list_selector.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable/com_facebook_picker_list_selector.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable/com_facebook_picker_list_selector_background_transition.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable/com_facebook_picker_list_selector_background_transition.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable/com_facebook_picker_list_selector_disabled.9.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable/com_facebook_picker_list_selector_disabled.9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable/com_facebook_picker_top_button.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable/com_facebook_picker_top_button.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable/com_facebook_place_default_icon.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable/com_facebook_place_default_icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable/com_facebook_profile_default_icon.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable/com_facebook_profile_default_icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable/com_facebook_profile_picture_blank_portrait.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable/com_facebook_profile_picture_blank_portrait.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable/com_facebook_profile_picture_blank_square.png" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable/com_facebook_profile_picture_blank_square.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable/com_facebook_top_background.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable/com_facebook_top_background.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable/com_facebook_top_button.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable/com_facebook_top_button.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable/com_facebook_usersettingsfragment_background_gradient.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable/com_facebook_usersettingsfragment_background_gradient.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/drawable/progress1.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/drawable/progress1.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/layout/activity_main.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/layout/com_facebook_friendpickerfragment.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/layout/com_facebook_friendpickerfragment.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/layout/com_facebook_login_activity_layout.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/layout/com_facebook_login_activity_layout.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/layout/com_facebook_picker_activity_circle_row.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/layout/com_facebook_picker_activity_circle_row.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/layout/com_facebook_picker_checkbox.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/layout/com_facebook_picker_checkbox.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/layout/com_facebook_picker_image.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/layout/com_facebook_picker_image.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/layout/com_facebook_picker_list_row.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/layout/com_facebook_picker_list_row.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/layout/com_facebook_picker_list_section_header.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/layout/com_facebook_picker_list_section_header.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/layout/com_facebook_picker_search_box.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/layout/com_facebook_picker_search_box.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/layout/com_facebook_picker_title_bar.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/layout/com_facebook_picker_title_bar.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/layout/com_facebook_picker_title_bar_stub.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/layout/com_facebook_picker_title_bar_stub.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/layout/com_facebook_placepickerfragment.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/layout/com_facebook_placepickerfragment.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/layout/com_facebook_placepickerfragment_list_row.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/layout/com_facebook_placepickerfragment_list_row.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/layout/com_facebook_search_bar_layout.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/layout/com_facebook_search_bar_layout.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/layout/com_facebook_usersettingsfragment.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/layout/com_facebook_usersettingsfragment.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/layout/splash.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/layout/splash.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/layout/twitter_share_dialog.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/layout/twitter_share_dialog.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/layout/webview.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/layout/webview.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/menu/main.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/menu/main.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/values-es/values.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/values-es/values.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/values-he/values.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/values-iw/values.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/values-iw/values.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/values-he/values.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/values-v11/values.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/values-v11/values.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/values-v14/values.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/values-v14/values.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/res/debug/values/values.xml" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/res/debug/values/values.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/RadioUahid/build/intermediates/symbols/debug/R.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/libs/GoogleAdMobAdsSdk-6.2.1.jar" afterPath="$PROJECT_DIR$/RadioUahid/libs/GoogleAdMobAdsSdk-6.2.1.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/libs/aacdecoder-android-0.8.jar" afterPath="$PROJECT_DIR$/RadioUahid/libs/aacdecoder-android-0.8.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/libs/bugsense-3.6.1.jar" afterPath="$PROJECT_DIR$/RadioUahid/libs/bugsense-3.6.1.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/libs/jsoup-1.7.2.jar" afterPath="$PROJECT_DIR$/RadioUahid/libs/jsoup-1.7.2.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/libs/twitter4j-core-4.0.2.jar" afterPath="$PROJECT_DIR$/RadioUahid/libs/twitter4j-core-4.0.2.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/RadioUahid/src/main/AndroidManifest.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/assets/ASans.ttf" afterPath="$PROJECT_DIR$/RadioUahid/src/main/assets/ASans.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/assets/ASansBlack.ttf" afterPath="$PROJECT_DIR$/RadioUahid/src/main/assets/ASansBlack.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/com/radio/aacttplayer/FbActivity.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/com/radio/radiouahid/FbActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/com/radio/aacttplayer/History.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/com/radio/radiouahid/History.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/com/radio/aacttplayer/LastFMCover.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/com/radio/radiouahid/LastFMCover.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/com/radio/aacttplayer/MainActivity.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/com/radio/radiouahid/MainActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/com/radio/aacttplayer/SplashActivity.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/com/radio/radiouahid/SplashActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/com/radio/aacttplayer/TwActivity.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/com/radio/radiouahid/TwActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/com/radio/aacttplayer/chatActivity.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/com/radio/radiouahid/chatActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/com/radio/aacttplayer/data/information.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/com/radio/radiouahid/data/information.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/lastfm/Album.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/lastfm/Album.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/lastfm/Artist.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/lastfm/Artist.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/lastfm/Authenticator.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/lastfm/Authenticator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/lastfm/CallException.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/lastfm/CallException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/lastfm/Caller.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/lastfm/Caller.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/lastfm/Chart.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/lastfm/Chart.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/lastfm/Event.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/lastfm/Event.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/lastfm/Geo.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/lastfm/Geo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/lastfm/Group.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/lastfm/Group.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/lastfm/Image.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/lastfm/Image.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/lastfm/ImageHolder.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/lastfm/ImageHolder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/lastfm/ImageSize.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/lastfm/ImageSize.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/lastfm/Library.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/lastfm/Library.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/lastfm/MusicEntry.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/lastfm/MusicEntry.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/lastfm/PaginatedResult.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/lastfm/PaginatedResult.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/lastfm/Period.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/lastfm/Period.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/lastfm/Playlist.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/lastfm/Playlist.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/lastfm/Radio.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/lastfm/Radio.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/lastfm/Result.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/lastfm/Result.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/lastfm/Session.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/lastfm/Session.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/lastfm/Tag.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/lastfm/Tag.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/lastfm/Tasteometer.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/lastfm/Tasteometer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/lastfm/Track.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/lastfm/Track.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/lastfm/User.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/lastfm/User.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/lastfm/Venue.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/lastfm/Venue.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/lastfm/cache/AndroidExpirationPolicy.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/lastfm/cache/AndroidExpirationPolicy.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/lastfm/cache/Cache.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/lastfm/cache/Cache.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/lastfm/cache/DatabaseCache.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/lastfm/cache/DatabaseCache.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/lastfm/cache/DefaultExpirationPolicy.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/lastfm/cache/DefaultExpirationPolicy.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/lastfm/cache/ExpirationPolicy.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/lastfm/cache/ExpirationPolicy.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/lastfm/cache/FileSystemCache.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/lastfm/cache/FileSystemCache.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/lastfm/cache/MemoryCache.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/lastfm/cache/MemoryCache.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/lastfm/cache/ScrobbleCache.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/lastfm/cache/ScrobbleCache.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/lastfm/scrobble/Rating.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/lastfm/scrobble/Rating.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/lastfm/scrobble/ResponseStatus.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/lastfm/scrobble/ResponseStatus.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/lastfm/scrobble/Scrobbler.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/lastfm/scrobble/Scrobbler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/lastfm/scrobble/Source.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/lastfm/scrobble/Source.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/lastfm/scrobble/SubmissionData.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/lastfm/scrobble/SubmissionData.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/util/StringUtilities.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/util/StringUtilities.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/xml/DomElement.java" afterPath="$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/xml/DomElement.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/jniLibs/armeabi-v7a/libaacdecoder.so" afterPath="$PROJECT_DIR$/RadioUahid/src/main/jniLibs/armeabi-v7a/libaacdecoder.so" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/jniLibs/armeabi/libaacdecoder.so" afterPath="$PROJECT_DIR$/RadioUahid/src/main/jniLibs/armeabi/libaacdecoder.so" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/jniLibs/mips/libaacdecoder.so" afterPath="$PROJECT_DIR$/RadioUahid/src/main/jniLibs/mips/libaacdecoder.so" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/jniLibs/x86/libaacdecoder.so" afterPath="$PROJECT_DIR$/RadioUahid/src/main/jniLibs/x86/libaacdecoder.so" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/anim/from_botton.xml" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/anim/from_botton.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable-hdpi/Thumbs.db" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable-hdpi/Thumbs.db" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable-hdpi/ic_launcher.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable-ldpi/Thumbs.db" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable-ldpi/Thumbs.db" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable-ldpi/ic_launcher.png" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable-ldpi/ic_launcher.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable-mdpi/Thumbs.db" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable-mdpi/Thumbs.db" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable-mdpi/backbtn_activo.png" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable-mdpi/backbtn_activo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable-mdpi/backbtn_inactivo.png" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable-mdpi/backbtn_inactivo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable-mdpi/background.png" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable-mdpi/background.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable-mdpi/bar_not.png" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable-mdpi/bar_not.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable-mdpi/baractive.png" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable-mdpi/baractive.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable-mdpi/chatbtn_activo.png" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable-mdpi/chatbtn_activo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable-mdpi/chatbtn_inactivo.png" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable-mdpi/chatbtn_inactivo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable-mdpi/fbbtn_activo.png" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable-mdpi/fbbtn_activo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable-mdpi/fbbtn_inactivo.png" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable-mdpi/fbbtn_inactivo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable-mdpi/feedback_arrow.png" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable-mdpi/feedback_arrow.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable-mdpi/ic_launcher.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable-mdpi/logo.png" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable-mdpi/logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable-mdpi/myprogress.xml" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable-mdpi/myprogress.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable-mdpi/play_activo.png" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable-mdpi/play_activo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable-mdpi/play_inactivo.png" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable-mdpi/play_inactivo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable-mdpi/power.png" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable-mdpi/power.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable-mdpi/rating.png" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable-mdpi/rating.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable-mdpi/seek_handler.png" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable-mdpi/seek_handler.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable-mdpi/share_icon.png" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable-mdpi/share_icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable-mdpi/stop_activo.png" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable-mdpi/stop_activo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable-mdpi/stop_inactivo.png" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable-mdpi/stop_inactivo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable-mdpi/twbtn_activo.png" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable-mdpi/twbtn_activo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable-mdpi/twbtn_inactivo.png" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable-mdpi/twbtn_inactivo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable-xhdpi/Thumbs.db" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable-xhdpi/Thumbs.db" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable-xhdpi/ic_launcher.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable-xxhdpi/Thumbs.db" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable-xxhdpi/Thumbs.db" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable-xxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable-xxhdpi/ic_launcher.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable/Thumbs.db" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable/Thumbs.db" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable/btn_back.xml" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable/btn_back.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable/btn_chat.xml" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable/btn_chat.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable/btn_facebook.xml" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable/btn_facebook.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable/btn_play.xml" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable/btn_play.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable/btn_stop.xml" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable/btn_stop.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable/btn_twitter.xml" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable/btn_twitter.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable/progress1.xml" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable/progress1.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/drawable/vol_bar.xml" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/drawable/vol_bar.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/layout/activity_main.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/layout/splash.xml" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/layout/splash.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/layout/twitter_share_dialog.xml" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/layout/twitter_share_dialog.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/layout/webview.xml" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/layout/webview.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/menu/main.xml" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/menu/main.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/values-sw600dp/dimens.xml" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/values-sw600dp/dimens.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/values-sw720dp-land/dimens.xml" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/values-sw720dp-land/dimens.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/values-v11/styles.xml" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/values-v11/styles.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/values-v14/styles.xml" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/values-v14/styles.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/values/color.xml" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/values/color.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/values/dimens.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/values/ids.xml" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/values/ids.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/values/strings.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/RadioUahid/src/main/res/values/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/classes.jar" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/model_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/model_data.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/GoogleAdMobAdsSdk_6_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/GoogleAdMobAdsSdk_6_2_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/aacdecoder_android_0_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/aacdecoder_android_0_8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/bugsense_3_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/bugsense_3_6_1.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aacttplayer/src/main/java/com/radio/aacttplayer/data/information.java" afterPath="$PROJECT_DIR$/aacttplayer/src/main/java/com/radio/aacttplayer/data/information.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/drawable/com_facebook_button_blue.xml" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/drawable/com_facebook_button_blue.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/drawable/com_facebook_button_check.xml" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/drawable/com_facebook_button_check.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/layout/com_facebook_friendpickerfragment.xml" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/layout/com_facebook_friendpickerfragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/layout/com_facebook_login_activity_layout.xml" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/layout/com_facebook_login_activity_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/drawable/com_facebook_loginbutton_silver.xml" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/drawable/com_facebook_loginbutton_silver.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/layout/com_facebook_picker_activity_circle_row.xml" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/layout/com_facebook_picker_activity_circle_row.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/layout/com_facebook_picker_checkbox.xml" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/layout/com_facebook_picker_checkbox.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/layout/com_facebook_picker_image.xml" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/layout/com_facebook_picker_image.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/drawable/com_facebook_picker_item_background.xml" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/drawable/com_facebook_picker_item_background.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/layout/com_facebook_picker_list_row.xml" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/layout/com_facebook_picker_list_row.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/layout/com_facebook_picker_list_section_header.xml" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/layout/com_facebook_picker_list_section_header.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/drawable/com_facebook_picker_list_selector.xml" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/drawable/com_facebook_picker_list_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/drawable/com_facebook_picker_list_selector_background_transition.xml" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/drawable/com_facebook_picker_list_selector_background_transition.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/layout/com_facebook_picker_search_box.xml" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/layout/com_facebook_picker_search_box.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/layout/com_facebook_picker_title_bar.xml" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/layout/com_facebook_picker_title_bar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/layout/com_facebook_picker_title_bar_stub.xml" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/layout/com_facebook_picker_title_bar_stub.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/drawable/com_facebook_picker_top_button.xml" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/drawable/com_facebook_picker_top_button.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/layout/com_facebook_placepickerfragment.xml" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/layout/com_facebook_placepickerfragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/layout/com_facebook_placepickerfragment_list_row.xml" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/layout/com_facebook_placepickerfragment_list_row.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/layout/com_facebook_search_bar_layout.xml" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/layout/com_facebook_search_bar_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/drawable/com_facebook_top_background.xml" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/drawable/com_facebook_top_background.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/drawable/com_facebook_top_button.xml" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/drawable/com_facebook_top_button.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/layout/com_facebook_usersettingsfragment.xml" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/layout/com_facebook_usersettingsfragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/drawable/com_facebook_usersettingsfragment_background_gradient.xml" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/drawable/com_facebook_usersettingsfragment_background_gradient.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facebookSDK/facebookSDK.iml" afterPath="$PROJECT_DIR$/facebookSDK/facebookSDK.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/jsoup_1_7_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/jsoup_1_7_2.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/menu/main.xml" afterPath="$PROJECT_DIR$/aacttplayer/src/main/res/menu/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aacttplayer/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/aacttplayer/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_20_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_20_0_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/twitter4j_core_4_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/twitter4j_core_4_0_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/values/values.xml" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/values-es/values.xml" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/values-es/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/values-hdpi-v4/values.xml" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/values-hdpi-v4/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/values-he/values.xml" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/values-he/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/values-iw/values.xml" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/values-iw/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/values-ldpi-v4/values.xml" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/values-ldpi-v4/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/values-mdpi-v4/values.xml" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/values-mdpi-v4/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/values-xhdpi-v4/values.xml" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/values-xhdpi-v4/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="aacttplayer.iws" />
@@ -88,70 +486,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/aacttplayer/src/main/java/com/radio/aacttplayer/MainActivity.java">
+      <file leaf-file-name="settings.gradle" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5648148" vertical-offset="7620" max-vertical-offset="22425">
-              <caret line="335" column="23" selection-start-line="335" selection-start-column="23" selection-end-line="335" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#24491#25012#0" expanded="true" />
-                <element signature="e#25005#25006#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="information.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aacttplayer/src/main/java/com/radio/aacttplayer/data/information.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1025">
-              <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="176">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aacttplayer/build.gradle">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="850">
-              <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="History.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aacttplayer/src/main/java/com/radio/aacttplayer/History.java">
+      <file leaf-file-name="build.gradle" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RadioUahid/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1600">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.58471763" vertical-offset="0" max-vertical-offset="748">
+              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aacttplayer/src/main/res/values/strings.xml">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RadioUahid/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
-              <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="2002">
+              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aacttplayer/src/main/res/layout/activity_main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.625" vertical-offset="2295" max-vertical-offset="9175">
-              <caret line="99" column="40" selection-start-line="99" selection-start-column="34" selection-end-line="99" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
@@ -163,8 +534,8 @@
     </FindUsagesManager>
   </component>
   <component name="GenerateSignedApkSettings">
-    <option name="KEY_STORE_PATH" value="C:\Users\Muhamed\Dropbox\Muhammed Ahmetovic\Android\radiouahid_keystore" />
-    <option name="KEY_ALIAS" value="radiouahid" />
+    <option name="KEY_STORE_PATH" value="$USER_HOME$/Downloads/radiouahid_distribute.jks" />
+    <option name="KEY_ALIAS" value="radiouahid_distribute" />
     <option name="REMEMBER_PASSWORDS" value="true" />
   </component>
   <component name="Git.Settings">
@@ -188,16 +559,16 @@
           <value>
             <list>
               <ExternalProjectPojo>
+                <option name="name" value=":facebookSDK" />
+                <option name="path" value="$PROJECT_DIR$/facebookSDK" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
                 <option name="name" value="radiouahid_android_gradle" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value=":aacttplayer" />
-                <option name="path" value="$PROJECT_DIR$/aacttplayer" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value=":facebookSDK" />
-                <option name="path" value="$PROJECT_DIR$/facebookSDK" />
+                <option name="name" value=":RadioUahid" />
+                <option name="path" value="$PROJECT_DIR$/RadioUahid" />
               </ExternalProjectPojo>
             </list>
           </value>
@@ -659,389 +1030,389 @@
             </list>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/aacttplayer">
+        <entry key="$PROJECT_DIR$/RadioUahid">
           <value>
             <list>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the Android dependencies of the project" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="androidDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles all variants of all applications and secondary packages." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="assemble" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles all Debug builds" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="assembleDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles the Test build for the Debug build" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="assembleDebugTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles all Release builds" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="assembleRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="build" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="buildDependents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="buildNeeded" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="check" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="checkDebugManifest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="checkReleaseManifest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="clean" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="compileDebugAidl" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="compileDebugJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="compileDebugNdk" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="compileDebugRenderscript" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="compileDebugTestAidl" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="compileDebugTestJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="compileDebugTestNdk" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="compileDebugTestRenderscript" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="compileLint" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="compileReleaseAidl" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="compileReleaseJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="compileReleaseNdk" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="compileReleaseRenderscript" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs and runs the tests for Build 'debug' on connected devices." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="connectedAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs all device checks on currently connected devices." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="connectedCheck" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs all device checks using Device Providers and Test Servers." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="deviceCheck" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="dexDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="dexDebugTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="dexRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="generateDebugAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="generateDebugBuildConfig" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="generateDebugResValues" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="generateDebugResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="generateDebugSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="generateDebugTestAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="generateDebugTestBuildConfig" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="generateDebugTestResValues" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="generateDebugTestResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="generateDebugTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="generateReleaseAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="generateReleaseBuildConfig" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="generateReleaseResValues" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="generateReleaseResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="generateReleaseSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs the Debug build" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="installDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs the Test build for the Debug build" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="installDebugTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs lint on all variants." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="lint" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs lint on the Debug build" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="lintDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs lint on the Release build" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="lintRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs lint on just the fatal issues in the Release build" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="lintVitalRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="mergeDebugAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="mergeDebugResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="mergeDebugTestAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="mergeDebugTestResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="mergeReleaseAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="mergeReleaseResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="packageDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="packageDebugTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="packageRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="preBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="preDebugBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="preDebugTestBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="preDexDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="preDexDebugTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="preDexRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="preReleaseBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.android.support:support-v4:20.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="prepareComAndroidSupportSupportV42000Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="prepareDebugDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="prepareDebugTestDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare radiouahid_android_gradle:facebookSDK:unspecified" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="prepareRadiouahid_android_gradleFacebookSDKUnspecifiedLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="prepareReleaseDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="processDebugJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="processDebugManifest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="processDebugResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="processDebugTestJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="processDebugTestManifest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="processDebugTestResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="processReleaseJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="processReleaseManifest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="processReleaseResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the signing info for each variant" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="signingReport" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Uninstall all applications." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="uninstallAll" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Uninstalls the Debug build" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="uninstallDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Uninstalls the Test build for the Debug build" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="uninstallDebugTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Uninstalls the Release build" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="uninstallRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="validateDebugSigning" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/aacttplayer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RadioUahid" />
                 <option name="name" value="zipalignDebug" />
               </ExternalTaskPojo>
             </list>
@@ -1466,7 +1837,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="5632654772066" />
+        <entry key="$PROJECT_DIR$" value="5657769836000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1548,6 +1919,86 @@
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/RadioUahid">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/0.12.1/e655430b059065d0fc2fcf57143714fe599a8867/gradle-0.12.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/0.12.1/c1e4fb0bb1517108044d1172d0fe378ab9e39af4/gradle-0.12.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.proguard/proguard-base/4.11/d0b8cbe4419385f72f3d31b39888edfcb10210df/proguard-base-4.11-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.proguard/proguard-base/4.11/76730af417bb42da22b16e49f49e67863382b9bd/proguard-base-4.11.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.proguard/proguard-gradle/4.11/1d80d5ed2daa1a3a2b6e7a45b40fd36ffed78f2b/proguard-gradle-4.11-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.proguard/proguard-gradle/4.11/da875d4b67a8be6c770b11d894434843714ac69d/proguard-gradle-4.11.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jdt.core.compiler/ecj/4.2.2/fb9dc21349d06dd00b395af5c42f299df828f9da/ecj-4.2.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jdt.core.compiler/ecj/4.2.2/d9fd79499c664bccaf24dbe04be417de6c6af64a/ecj-4.2.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.1/1fdf61e5ba87e0e4676c22677e0b2fe3a05c2fd8/httpcore-4.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.1/33fc26c02f8043ab0ede19eadc8c9885386b255c/httpcore-4.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.1/f3f156cbff0e0fb0d64bfce31a352cce4a33bc19/commons-logging-1.1.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.1/5043bfebc3db072ed80fbd362e7caf00e885d8ae/commons-logging-1.1.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.4/5310da9f90e843883309e9e0bf5950faa79882a0/commons-codec-1.4-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.4/4216af16d38465bbab0f3dff8efa14204f7a399a/commons-codec-1.4.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.1.1/42f6189003f355107f53b937770092517de69710/httpclient-4.1.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.1.1/3d1d918f32709e33ba7ddb2c4e8d1c543ebe713e/httpclient-4.1.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.1/3ac83213baeab2b21fde6c0bf47ed68ea3e6a8da/httpmime-4.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.1/9ba2dcdf94ce35c8a8e9bff242db0618ca932e92/httpmime-4.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/15.0/36b6a585c0f0c63bd85fb04db0dcb7b217298956/guava-15.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/15.0/ed727a8d9f247e2050281cb083f1c77b09dcb5cd/guava-15.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/common/23.0.1/97ea6f508f819788fdb57c65b68d5897d41dadaf/common-23.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/common/23.0.1/eb0e5c7a15bc65ce8892e69d40ef9896038fa505/common-23.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.kxml/kxml2/2.3.0/309cd2cff7260e465792fda3dcbb063b730d8050/kxml2-2.3.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.kxml/kxml2/2.3.0/ccbc77a5fd907ef863c29f3596c6f54ffa4e9442/kxml2-2.3.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.layoutlib/layoutlib-api/23.0.1/3c49b8774ab42c7f450313b8893b83bffdb8fe35/layoutlib-api-23.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.layoutlib/layoutlib-api/23.0.1/b2ae27e3abc4f414d21ab22d7be037362383407b/layoutlib-api-23.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/dvlib/23.0.1/d60b040641fbf298d898d31fb558eeceda0e6cd6/dvlib-23.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/dvlib/23.0.1/6a79fa7c46415293769ef8ec5419d279619750be/dvlib-23.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/3caea4421428752206c7a94c3e3097f0c47f1bb8/commons-compress-1.8.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/a698750c16740fd5b3871425f4cb3bbaa87f529d/commons-compress-1.8.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdklib/23.0.1/88c936e159ffa2105c430e4c02aeb0d8354e6ddd/sdklib-23.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdklib/23.0.1/d55506f84fba861d5849a465672e645066eb03f9/sdklib-23.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdk-common/23.0.1/f10d185ab3d7573cb8dc188123197cd5a7c0652f/sdk-common-23.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdk-common/23.0.1/4e4a16b7a955c61b795bf515a165ac66ab888e65/sdk-common-23.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-model/0.12.1/90de594878c84da7ce4233acf6053ce3852f162a/builder-model-0.12.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-model/0.12.1/b3f0defc08f7374ff2a19bf13cc86d4e1ec56e95/builder-model-0.12.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/4.0/4a33d6206d6d442446a8edbd2b0798ecfaebc229/asm-4.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/4.0/659add6efc75a4715d738e73f07505246edf4d66/asm-4.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.external.lombok/lombok-ast/0.2.2/47ebe619db7def288aad08bd65d26eea6d67f8ee/lombok-ast-0.2.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.external.lombok/lombok-ast/0.2.2/57e560b535ceaa14fb6f15422d74594acd6c5b64/lombok-ast-0.2.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/4.0/4a33d6206d6d442446a8edbd2b0798ecfaebc229/asm-tree-4.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/4.0/67bd266cd17adcee486b76952ece4cc85fe248b8/asm-tree-4.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-api/23.0.1/cf6b4b75a67b5a67860348c3f5006f67b1aef2cd/lint-api-23.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-api/23.0.1/453246a460abfd437fe17bfab20bab04fff94023/lint-api-23.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/4.0/4a33d6206d6d442446a8edbd2b0798ecfaebc229/asm-analysis-4.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/4.0/1c45d52b6f6c638db13cf3ac12adeb56b254cdd7/asm-analysis-4.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-checks/23.0.1/788c93cb82eef190f29b28118e48d8a354803617/lint-checks-23.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-checks/23.0.1/11481a7f2bd7cbab933e81286f38bc287fcbb673/lint-checks-23.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint/23.0.1/ca12b3ee13b54d94677051f1b3bf87b3012c3a0c/lint-23.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint/23.0.1/e298afd15c6c20a9a2fa45ca0353657233eb1282/lint-23.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.ddms/ddmlib/23.0.1/8238d75c598324d55e7537127ea991b1361406ef/ddmlib-23.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.ddms/ddmlib/23.0.1/bdb64822d5aec1c3c2d1ab60437e3ddacf4296e1/ddmlib-23.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-test-api/0.12.1/bf3fa8bc8411b7516b16308abcc28568182a86b/builder-test-api-0.12.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-test-api/0.12.1/a87171dbd117b6c538da71106d3fb116ce627b0a/builder-test-api-0.12.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/manifest-merger/23.0.1/6d884e8e84d88c8e809b849435910081fd07fc16/manifest-merger-23.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/manifest-merger/23.0.1/49a31b32bc6f1f81c757be9aeaacdf0c12c3d381/manifest-merger-23.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup/javawriter/2.5.0/1b2a0925ff06220c0261b6fd468183cd9e9a9a47/javawriter-2.5.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup/javawriter/2.5.0/81241ff7078ef14f42ea2a8995fa09c096256e6b/javawriter-2.5.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.48/3824866f059053c43b118eb5a067ea1800d8c913/bcprov-jdk15on-1.48-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.48/960dea7c9181ba0b17e8bab0c06a43f0a5f04e65/bcprov-jdk15on-1.48.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15on/1.48/8cff777fce5ef53cc35fa569faa8d12faaf34a78/bcpkix-jdk15on-1.48-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15on/1.48/28b7614b908a47844bb27e3c94b45b6893656265/bcpkix-jdk15on-1.48.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/0.12.1/cfd726d061ebc6bd2ac8d8f4eb540fedfee6067f/builder-0.12.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/0.12.1/351adf590ab6dfee5e9760f2c6894b8002b3cb5/builder-0.12.1.jar" />
+                            <option value="$MODULE_DIR$/libs/aacdecoder-android-0.8.jar" />
+                            <option value="$MODULE_DIR$/libs/GoogleAdMobAdsSdk-6.2.1.jar" />
+                            <option value="$MODULE_DIR$/libs/jsoup-1.7.2.jar" />
+                            <option value="$MODULE_DIR$/libs/twitter4j-core-4.0.2.jar" />
+                            <option value="$MODULE_DIR$/libs/bugsense-3.6.1.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$/RadioUahid" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
@@ -1808,7 +2259,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/aacttplayer/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/facebookSDK/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/aacttplayer/src/main/res/drawable/btn_play.xml" />
         <option value="$PROJECT_DIR$/aacttplayer/src/main/res/menu/main.xml" />
@@ -1818,14 +2268,18 @@
         <option value="$PROJECT_DIR$/aacttplayer/src/main/java/com/radio/aacttplayer/data/information.java" />
         <option value="$PROJECT_DIR$/aacttplayer/build.gradle" />
         <option value="$PROJECT_DIR$/aacttplayer/src/main/java/com/radio/aacttplayer/MainActivity.java" />
+        <option value="$PROJECT_DIR$/aacttplayer/src/main/res/drawable/vol_bar.xml" />
+        <option value="$PROJECT_DIR$/aacttplayer/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/RadioUahid/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/RadioUahid/build.gradle" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1098" />
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -1861,64 +2315,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="radiouahid_android_gradle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="radiouahid_android_gradle" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="radiouahid_android_gradle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="radiouahid_android_gradle" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="facebookSDK" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="radiouahid_android_gradle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="radiouahid_android_gradle" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aacttplayer" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="radiouahid_android_gradle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="radiouahid_android_gradle" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aacttplayer" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
@@ -1931,62 +2330,25 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/radiouahid_distribute.jks" />
     <property name="FullScreen" value="false" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="accelerator_nexus" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/aacttplayer/src/main/assets" />
       <recent name="C:\Users\Muhamed\Documents\radiouahid\android\radiouahid_android_gradle\aacttplayer\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Android Application.aacttplayer">
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
+  <component name="RunManager" selected="Android Application.RadioUahid">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
       <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -2008,6 +2370,14 @@
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -2064,6 +2434,46 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
     <configuration default="false" name="aacttplayer-aacttplayer" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="aacttplayer-aacttplayer" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -2108,9 +2518,32 @@
       <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
     </configuration>
-    <list size="2">
+    <configuration default="false" name="RadioUahid" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="RadioUahid" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Android Application.aacttplayer-aacttplayer" />
       <item index="1" class="java.lang.String" itemvalue="Android Application.aacttplayer" />
+      <item index="2" class="java.lang.String" itemvalue="Android Application.RadioUahid" />
     </list>
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -2139,38 +2572,38 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32464713" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31229946" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32790446" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973261" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3276414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24920128" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32870865" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="91" y="91" width="1738" height="898" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="91" y="91" width="1738" height="898" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18636848" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3244397" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -2193,83 +2626,137 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/aacttplayer/src/main/java/com/radio/aacttplayer/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="176">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RadioUahid/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="352" max-vertical-offset="748">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RadioUahid/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="2002">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RadioUahid/src/main/java/com/radio/radiouahid/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="20570">
+          <caret line="335" column="23" selection-start-line="335" selection-start-column="23" selection-end-line="335" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RadioUahid/src/main/java/com/radio/radiouahid/data/information.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="902">
+          <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RadioUahid/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="572" max-vertical-offset="748">
+          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RadioUahid/src/main/java/com/radio/radiouahid/History.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1694">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RadioUahid/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="594">
+          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RadioUahid/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2178" max-vertical-offset="8074">
+          <caret line="99" column="40" selection-start-line="99" selection-start-column="34" selection-end-line="99" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RadioUahid/src/main/java/com/radio/radiouahid/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="17275" max-vertical-offset="20850">
           <caret line="817" column="8" selection-start-line="817" selection-start-column="8" selection-end-line="817" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#24491#25012#0" expanded="true" />
-            <element signature="e#25005#25006#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aacttplayer/src/main/res/menu/main.xml">
+    <entry file="file://$PROJECT_DIR$/RadioUahid/src/main/res/menu/main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="125" max-vertical-offset="275">
           <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aacttplayer/src/main/res/values/strings.xml">
+    <entry file="file://$PROJECT_DIR$/RadioUahid/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="675">
           <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aacttplayer/src/main/java/com/radio/aacttplayer/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/RadioUahid/src/main/java/com/radio/radiouahid/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="18225" max-vertical-offset="21875">
           <caret line="817" column="8" selection-start-line="817" selection-start-column="8" selection-end-line="817" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#24491#25012#0" expanded="true" />
-            <element signature="e#25005#25006#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aacttplayer/src/main/res/menu/main.xml">
+    <entry file="file://$PROJECT_DIR$/RadioUahid/src/main/res/menu/main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="125" max-vertical-offset="275">
           <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aacttplayer/src/main/res/values/strings.xml">
+    <entry file="file://$PROJECT_DIR$/RadioUahid/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="675">
           <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aacttplayer/src/main/java/com/radio/aacttplayer/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/RadioUahid/src/main/java/com/radio/radiouahid/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="125" max-vertical-offset="21775">
           <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#24491#25012#0" expanded="true" />
-            <element signature="e#25005#25006#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aacttplayer/src/main/java/com/radio/aacttplayer/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/RadioUahid/src/main/java/com/radio/radiouahid/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="125" max-vertical-offset="21775">
           <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#24491#25012#0" expanded="true" />
-            <element signature="e#25005#25006#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2280,39 +2767,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aacttplayer/src/main/res/drawable-mdpi/play_activo.png">
+    <entry file="file://$PROJECT_DIR$/RadioUahid/src/main/res/drawable-mdpi/play_activo.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aacttplayer/src/main/res/drawable/btn_play.xml">
+    <entry file="file://$PROJECT_DIR$/RadioUahid/src/main/res/drawable/btn_play.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5244755" vertical-offset="0" max-vertical-offset="572">
           <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aacttplayer/src/main/res/menu/main.xml">
+    <entry file="file://$PROJECT_DIR$/RadioUahid/src/main/res/menu/main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2170139" vertical-offset="0" max-vertical-offset="576">
           <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aacttplayer/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2275">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2320,6 +2790,113 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="111" max-vertical-offset="700">
           <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facebookSDK/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="725">
+          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RadioUahid/src/main/java/com/radio/radiouahid/LastFMCover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1514" max-vertical-offset="2100">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RadioUahid/src/main/java/com/radio/radiouahid/FbActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2350">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RadioUahid/src/main/java/com/radio/radiouahid/chatActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2475">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RadioUahid/src/main/java/net/roarsoftware/util/StringUtilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="2675">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RadioUahid/src/main/java/com/radio/radiouahid/TwActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2425">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RadioUahid/src/main/java/com/radio/radiouahid/SplashActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="1350">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RadioUahid/src/main/java/com/radio/radiouahid/History.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1014" max-vertical-offset="1600">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RadioUahid/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4" vertical-offset="0" max-vertical-offset="605">
+          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RadioUahid/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2178" max-vertical-offset="8074">
+          <caret line="99" column="40" selection-start-line="99" selection-start-column="34" selection-end-line="99" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RadioUahid/src/main/res/drawable-mdpi/feedback_layout.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RadioUahid/src/main/java/com/radio/radiouahid/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="13496" max-vertical-offset="20812">
+          <caret line="625" column="12" selection-start-line="625" selection-start-column="12" selection-end-line="625" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RadioUahid/src/main/res/drawable/vol_bar.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RadioUahid/src/main/java/com/radio/radiouahid/data/information.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6909091" vertical-offset="0" max-vertical-offset="902">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="176">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2332,114 +2909,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/facebookSDK/build.gradle">
+    <entry file="file://$PROJECT_DIR$/radiouahid_android_gradle.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="725">
-          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="896">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="909">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RadioUahid/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2002">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aacttplayer/src/main/java/com/radio/aacttplayer/LastFMCover.java">
+    <entry file="file://$PROJECT_DIR$/RadioUahid/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1514" max-vertical-offset="2100">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.58471763" vertical-offset="0" max-vertical-offset="748">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aacttplayer/src/main/java/com/radio/aacttplayer/FbActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2350">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aacttplayer/src/main/java/com/radio/aacttplayer/chatActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2475">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aacttplayer/src/main/java/net/roarsoftware/util/StringUtilities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="2675">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aacttplayer/src/main/java/com/radio/aacttplayer/TwActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2425">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aacttplayer/src/main/java/com/radio/aacttplayer/SplashActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="1350">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aacttplayer/src/main/java/com/radio/aacttplayer/History.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1014" max-vertical-offset="1600">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aacttplayer/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
-          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aacttplayer/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.625" vertical-offset="2295" max-vertical-offset="9175">
-          <caret line="99" column="40" selection-start-line="99" selection-start-column="34" selection-end-line="99" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aacttplayer/src/main/java/com/radio/aacttplayer/data/information.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1025">
-          <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aacttplayer/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="850">
-          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aacttplayer/src/main/java/com/radio/aacttplayer/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5648148" vertical-offset="7620" max-vertical-offset="22425">
-          <caret line="335" column="23" selection-start-line="335" selection-start-column="23" selection-end-line="335" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#24491#25012#0" expanded="true" />
-            <element signature="e#25005#25006#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

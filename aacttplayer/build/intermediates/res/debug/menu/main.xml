@@ -1,6 +1,0 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android" >
-
-  
-        <item android:id="@+id/rating"  android:title="Bewerte dieses App" android:icon="@drawable/rating" ></item>
-        <item android:id="@+id/exit"  android:title="Beenden" android:icon="@drawable/power" ></item>
-</menu><!-- From: file:/C:/Users/Muhamed/Documents/radiouahid/android/radiouahid_android_gradle/aacttplayer/src/main/res/menu/main.xml -->
