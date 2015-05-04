@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <!-- From: file:/Users/mahmet/Documents/development/impac/radiouahid_android_gradle/facebookSDK/src/main/res/values-mdpi/dimens.xml -->
-    <eat-comment />
-
+    <!-- From: file:/Users/mahmet/Documents/development/radiouahid/radiouahid_android_gradle/facebookSDK/src/main/res/values-mdpi/dimens.xml -->
+    <eat-comment/>
     <dimen name="com_facebook_picker_divider_width">1px</dimen>
-
 </resources>

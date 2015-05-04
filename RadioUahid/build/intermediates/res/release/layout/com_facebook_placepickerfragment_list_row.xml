@@ -88,4 +88,4 @@
             android:background="@drawable/com_facebook_picker_default_separator_color"
             />
 </RelativeLayout>
-<!-- From: file:/Users/mahmet/Documents/development/impac/radiouahid_android_gradle/facebookSDK/src/main/res/layout/com_facebook_placepickerfragment_list_row.xml --><!-- From: file:/Users/mahmet/Documents/development/impac/radiouahid_android_gradle/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/layout/com_facebook_placepickerfragment_list_row.xml -->
+<!-- From: file:/Users/mahmet/Documents/development/radiouahid/radiouahid_android_gradle/facebookSDK/src/main/res/layout/com_facebook_placepickerfragment_list_row.xml --><!-- From: file:/Users/mahmet/Documents/development/radiouahid/radiouahid_android_gradle/RadioUahid/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/res/layout/com_facebook_placepickerfragment_list_row.xml -->

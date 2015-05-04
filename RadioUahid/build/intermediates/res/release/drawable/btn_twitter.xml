@@ -11,4 +11,4 @@
         android:state_enabled="true"
         android:drawable="@drawable/twbtn_inactivo" />
 
-</selector><!-- From: file:/Users/mahmet/Documents/development/impac/radiouahid_android_gradle/RadioUahid/src/main/res/drawable/btn_twitter.xml -->
+</selector><!-- From: file:/Users/mahmet/Documents/development/radiouahid/radiouahid_android_gradle/RadioUahid/src/main/res/drawable/btn_twitter.xml -->

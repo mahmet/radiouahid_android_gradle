@@ -9,6 +9,8 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
+import android.content.pm.ActivityInfo;
+import android.content.res.Configuration;
 import android.graphics.Bitmap;
 import android.graphics.Typeface;
 import android.content.Context;
@@ -261,8 +263,13 @@ public class MainActivity extends Activity implements View.OnClickListener, Play
 			track = streamTitle;
 
 		int end = streamTitle.indexOf("(");
-		if (end > 0)
-			track = streamTitle.substring(start, end);
+		if (end > 0) {
+            try {
+                track = streamTitle.substring(start, end);
+            } catch(StringIndexOutOfBoundsException e) {
+                e.printStackTrace();
+            }
+        }
 
 		end = streamTitle.indexOf("[");
 		if (end > 0)
@@ -313,6 +320,12 @@ public class MainActivity extends Activity implements View.OnClickListener, Play
             }
         });
     }
+
+    private boolean isTablet(Context context) {
+        boolean xlarge = ((context.getResources().getConfiguration().screenLayout & Configuration.SCREENLAYOUT_SIZE_MASK) == Configuration.SCREENLAYOUT_SIZE_XLARGE);
+        boolean large = ((context.getResources().getConfiguration().screenLayout & Configuration.SCREENLAYOUT_SIZE_MASK) == Configuration.SCREENLAYOUT_SIZE_LARGE);
+        return (xlarge || large);
+    }
     
     ////////////////////////////////////////////////////////////////////////////
     // Protected
@@ -330,6 +343,13 @@ public class MainActivity extends Activity implements View.OnClickListener, Play
         StrictMode.setThreadPolicy(policy);
 
         BugSenseHandler.initAndStartSession(this, "a3cc0490");
+
+        if(!isTablet(this)) {
+            setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+            Log.e("NOT TABLET", "THIS IS NOT A TABLET");
+        } else {
+            Log.e("TABLET", "THIS IS A TABLET");
+        }
 
         topFeedbackLayout = (RelativeLayout) findViewById(R.id.top_layout);
         feedbackContentLayout = (ImageView) findViewById(R.id.feedback_layout);
@@ -598,18 +618,20 @@ public class MainActivity extends Activity implements View.OnClickListener, Play
     ////////////////////////////////////////////////////////////////////////////
 
     private void start() {
-    	
-    	showNotification();
-        
-    	//interstitial.show();
 
-        // we cannot do it in playerStarted() - it is too late:
-        txtMetaTitle.setText("");
-        txtMetaGenre.setText("");
-       
-        multiPlayer = new MultiPlayer( this, AAC_BUFFER_CAPACITY_MS, AAC_DECODER_CAPACITY_MS);
-        multiPlayer.playAsync(StreamUrl);
-        //----  crear aqui el string para la radio
+        if(btnPlay.isEnabled()) {
+            showNotification();
+            txtMetaTitle.setText("  ");
+            txtMetaGenre.setText("");
+            multiPlayer = new MultiPlayer( this, AAC_BUFFER_CAPACITY_MS, AAC_DECODER_CAPACITY_MS);
+            multiPlayer.playAsync(StreamUrl);
+        } else {
+            try {
+                multiPlayer.wait();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
     }
 
 
@@ -793,12 +815,10 @@ public boolean onOptionsItemSelected(MenuItem item) {
 		Intent intent = new Intent (Intent.ACTION_VIEW,Uri.parse(information.Goplay));
 		
 		startActivity(intent);
-		
-		    
+
 		return true;
 		
 	case R.id.exit:
-		
 
 		String message = "Willst du Radio Uahid wirklich beenden?";
 		isExitMenuClicked = true;
@@ -834,16 +854,14 @@ public boolean onOptionsItemSelected(MenuItem item) {
 		ad.show();
 
 		return true;
-		
-		
+
     }
     return super.onOptionsItemSelected(item);
 		
 	
 	}
 
-		
-		
+
 		public void updateAlbum() {
 			
 			
@@ -932,11 +950,3 @@ public boolean onOptionsItemSelected(MenuItem item) {
 
 
 }
-
-
-
-	
-	
-
-
-

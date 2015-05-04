@@ -1,8 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="2" >
-
-    <dataSet config="main" >
-        <source path="/Users/mahmet/Documents/development/impac/radiouahid_android_gradle/RadioUahid/src/androidTest/assets" />
-    </dataSet>
-
-</merger>
+<merger version="3"><dataSet config="main"><source path="/Users/mahmet/Documents/development/radiouahid/radiouahid_android_gradle/RadioUahid/src/androidTest/assets"/></dataSet></merger>

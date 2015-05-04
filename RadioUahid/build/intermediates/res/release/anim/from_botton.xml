@@ -5,4 +5,4 @@
         android:fromYDelta="-100%p"
         android:toYDelta="0"
         android:duration="2000"/>
-</set><!-- From: file:/Users/mahmet/Documents/development/impac/radiouahid_android_gradle/RadioUahid/src/main/res/anim/from_botton.xml -->
+</set><!-- From: file:/Users/mahmet/Documents/development/radiouahid/radiouahid_android_gradle/RadioUahid/src/main/res/anim/from_botton.xml -->

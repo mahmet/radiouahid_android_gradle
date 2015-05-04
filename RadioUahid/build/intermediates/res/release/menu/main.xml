@@ -3,4 +3,4 @@
   
         <item android:id="@+id/rating"  android:title="Bewerte dieses App" android:icon="@drawable/rating" ></item>
         <item android:id="@+id/exit"  android:title="Beenden" android:icon="@drawable/power" ></item>
-</menu><!-- From: file:/Users/mahmet/Documents/development/impac/radiouahid_android_gradle/RadioUahid/src/main/res/menu/main.xml -->
+</menu><!-- From: file:/Users/mahmet/Documents/development/radiouahid/radiouahid_android_gradle/RadioUahid/src/main/res/menu/main.xml -->

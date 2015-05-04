@@ -1,5 +1,7 @@
 package net.roarsoftware.lastfm;
 
+import android.util.Log;
+
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Date;
@@ -443,7 +445,12 @@ public class Track extends MusicEntry {
 		Result result = Caller.getInstance().call("track.getInfo", apiKey,
 				params);
 
-		DomElement element = result.getContentElement().getChild("track");
+        DomElement element = null;
+        try {
+            element = result.getContentElement().getChild("track");
+        } catch(NullPointerException e) {
+           e.printStackTrace();
+        }
 
 		if (element == null)
 			element = result.getContentElement();

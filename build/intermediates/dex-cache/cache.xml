@@ -1,59 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<pre-dex-items>
+<items version="2" >
 
     <item
-        dex="/Users/mahmet/Documents/development/impac/radiouahid_android_gradle/RadioUahid/build/intermediates/pre-dexed/debug/classes-9acd7d628c345cc76d5b686ea22e37998692f9b8.jar"
-        jar="/Users/mahmet/Documents/development/impac/radiouahid_android_gradle/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
+        jar="/Users/mahmet/Documents/development/radiouahid/radiouahid_android_gradle/RadioUahid/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="/Users/mahmet/Documents/development/radiouahid/radiouahid_android_gradle/RadioUahid/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-415d5d042ff99da114a35a2d690321613324f293.jar" />
+    </item>
     <item
-        dex="/Users/mahmet/Documents/development/impac/radiouahid_android_gradle/RadioUahid/build/intermediates/pre-dexed/debug/GoogleAdMobAdsSdk-6.2.1-bad3eff9ccfcee1aff5b6eca5653e7844bdf58c2.jar"
-        jar="/Users/mahmet/Documents/development/impac/radiouahid_android_gradle/RadioUahid/libs/GoogleAdMobAdsSdk-6.2.1.jar"
+        jar="/Users/mahmet/Documents/development/Android/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="40ffb9188343d72dc46d596836a8dd8d464b41a3"/>
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="/Users/mahmet/Documents/development/radiouahid/radiouahid_android_gradle/RadioUahid/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-ccf889e7f623c2d2afe5bc9a52c9c651c47ef696.jar" />
+    </item>
     <item
-        dex="/Users/mahmet/Documents/development/impac/radiouahid_android_gradle/RadioUahid/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-fe96dd8d33105f940251adfcb4ba6ab2b5cbf322.jar"
-        jar="/Users/mahmet/Documents/development/impac/radiouahid_android_gradle/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
+        jar="/Users/mahmet/Documents/development/radiouahid/radiouahid_android_gradle/RadioUahid/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/classes.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+        sha1="1cd661fdbbf30771c2107e8cc62bc9a95e7d4905">
+        <dex dex="/Users/mahmet/Documents/development/radiouahid/radiouahid_android_gradle/RadioUahid/build/intermediates/pre-dexed/debug/classes-d779677e1a647629b8247f9ad7626ba117005c8f.jar" />
+    </item>
     <item
-        dex="/Users/mahmet/Documents/development/impac/radiouahid_android_gradle/RadioUahid/build/intermediates/pre-dexed/debug/aacdecoder-android-0.8-95be7c6c61fee55da0b81f21ad9301dacbb50f63.jar"
-        jar="/Users/mahmet/Documents/development/impac/radiouahid_android_gradle/RadioUahid/libs/aacdecoder-android-0.8.jar"
+        jar="/Users/mahmet/Documents/development/radiouahid/radiouahid_android_gradle/RadioUahid/libs/jsoup-1.7.2.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="43fc2f0e7556b0a743cece06945b9eff5c241499"/>
+        sha1="872693211fd68d1c4e116cf90021603207725e19">
+        <dex dex="/Users/mahmet/Documents/development/radiouahid/radiouahid_android_gradle/RadioUahid/build/intermediates/pre-dexed/debug/jsoup-1.7.2-6b4f4529fca0d0871f5078be2cdc6df95f2949b8.jar" />
+    </item>
     <item
-        dex="/Users/mahmet/Documents/development/impac/radiouahid_android_gradle/RadioUahid/build/intermediates/pre-dexed/debug/jsoup-1.7.2-fd6b667619caeaf8151d77ded263211ecf0fdd0d.jar"
-        jar="/Users/mahmet/Documents/development/impac/radiouahid_android_gradle/RadioUahid/libs/jsoup-1.7.2.jar"
+        jar="/Users/mahmet/Documents/development/radiouahid/radiouahid_android_gradle/RadioUahid/libs/bugsense-3.6.1.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="872693211fd68d1c4e116cf90021603207725e19"/>
+        sha1="bf354591194bef969ec162609bd1cc279d2d113b">
+        <dex dex="/Users/mahmet/Documents/development/radiouahid/radiouahid_android_gradle/RadioUahid/build/intermediates/pre-dexed/debug/bugsense-3.6.1-1ef9c51f055a0fb2979d9e05bf2589577994a205.jar" />
+    </item>
     <item
-        dex="/Users/mahmet/Documents/development/impac/radiouahid_android_gradle/RadioUahid/build/intermediates/pre-dexed/debug/bugsense-3.6.1-a1a389db3fa32f087976f48730b35b0bc5bee146.jar"
-        jar="/Users/mahmet/Documents/development/impac/radiouahid_android_gradle/RadioUahid/libs/bugsense-3.6.1.jar"
+        jar="/Users/mahmet/Documents/development/radiouahid/radiouahid_android_gradle/RadioUahid/libs/aacdecoder-android-0.8.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="bf354591194bef969ec162609bd1cc279d2d113b"/>
+        sha1="43fc2f0e7556b0a743cece06945b9eff5c241499">
+        <dex dex="/Users/mahmet/Documents/development/radiouahid/radiouahid_android_gradle/RadioUahid/build/intermediates/pre-dexed/debug/aacdecoder-android-0.8-9b29a4d1bfe29c13b729c43ba76ce2f8ed517f4c.jar" />
+    </item>
     <item
-        dex="/Users/mahmet/Documents/development/impac/radiouahid_android_gradle/RadioUahid/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-bca9cd8c8082330ef7549e0398af852faae531fd.jar"
-        jar="/Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
+        jar="/Users/mahmet/Documents/development/radiouahid/radiouahid_android_gradle/RadioUahid/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="/Users/mahmet/Documents/development/radiouahid/radiouahid_android_gradle/RadioUahid/build/intermediates/pre-dexed/debug/classes-6f8723822a91ae2c957d0da3027bc0ee416f6ae6.jar" />
+    </item>
     <item
-        dex="/Users/mahmet/Documents/development/impac/radiouahid_android_gradle/RadioUahid/build/intermediates/pre-dexed/debug/twitter4j-core-4.0.2-b4b8b071920669e55dcf0582ef7c3f0869e52209.jar"
-        jar="/Users/mahmet/Documents/development/impac/radiouahid_android_gradle/RadioUahid/libs/twitter4j-core-4.0.2.jar"
+        jar="/Users/mahmet/Documents/development/radiouahid/radiouahid_android_gradle/RadioUahid/libs/twitter4j-core-4.0.2.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="381cf31e9200c2902782f17248d2af18e2ab4c56"/>
+        sha1="381cf31e9200c2902782f17248d2af18e2ab4c56">
+        <dex dex="/Users/mahmet/Documents/development/radiouahid/radiouahid_android_gradle/RadioUahid/build/intermediates/pre-dexed/debug/twitter4j-core-4.0.2-5712915eb66ce869483ede56a9a38eb1196e8495.jar" />
+    </item>
     <item
-        dex="/Users/mahmet/Documents/development/impac/radiouahid_android_gradle/RadioUahid/build/intermediates/pre-dexed/debug/classes-28dc24e535e987107a45af90f93eee7307fbb071.jar"
-        jar="/Users/mahmet/Documents/development/impac/radiouahid_android_gradle/build/intermediates/exploded-aar/radiouahid_android_gradle/facebookSDK/unspecified/classes.jar"
+        jar="/Users/mahmet/Documents/development/radiouahid/radiouahid_android_gradle/RadioUahid/libs/GoogleAdMobAdsSdk-6.2.1.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="778de2b9e7e7652acd0b7c036417dbd8d42c01ba"/>
+        sha1="40ffb9188343d72dc46d596836a8dd8d464b41a3">
+        <dex dex="/Users/mahmet/Documents/development/radiouahid/radiouahid_android_gradle/RadioUahid/build/intermediates/pre-dexed/debug/GoogleAdMobAdsSdk-6.2.1-08e2195ecd8e32babde9bcba5c64381d92fc2901.jar" />
+    </item>
 
-</pre-dex-items>
+</items>

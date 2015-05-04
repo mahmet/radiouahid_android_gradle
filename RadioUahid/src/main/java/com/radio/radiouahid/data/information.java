@@ -7,7 +7,7 @@ public class information {
 	public static String RadioName = "Radio Uahid";
 	
 	//stream url supports streams MP3,AAC, AAC+ and HE-AAC+
-	public static String StreamURL = "http://174.36.1.92:5659/Live";
+	public static String StreamURL = "http://stardust.wavestreamer.com:5659/Live";
 	
 	
 	//Facebook FanPage url
